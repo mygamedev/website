@@ -73,6 +73,8 @@
   font-size: 16px;
   color: #BF845D;
   padding-top: 105px;
+  max-width: 330px;
+  text-align: center;
 }
 .one .arrow {
   position: absolute;
@@ -94,7 +96,9 @@
   text-align: center;
 }
 .one .desc-mobile {
+  margin: 0 auto;
   text-align: center;
+  max-width: 330px;
   font-weight: 400;
   font-size: 15px;
   color: #BF845D;
