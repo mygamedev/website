@@ -119,7 +119,7 @@
 /* TWO A */
 .two-a {
   background-image: url("../img/two/board.png");
-  background-position: center;
+  background-position: 50% 35%;
   background-size: auto;
   margin-left: -15px;
   margin-right: -15px;
@@ -136,13 +136,21 @@
   right: 40px;
   height: 311px;
 }
+
+.two-a .title,
+.two-a .desc {
+  padding-left: 30px;
+}
 .two-a .title {
   color: white;
   font-family: "Oswald Bold";
-  font-size: 45px;
+  font-size: 42px;
+  line-height: 1.3;
 }
+
 .two-a .desc {
   padding-top: 15px;
+  max-width: 450px;
   font-size: 16px;
   font-weight: 600;
   color: #2A4755;
