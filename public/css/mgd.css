@@ -421,17 +421,17 @@
   box-shadow: 5px 8px 0 #509582;
 }
 .four .mobile-contact-sheet .mobile-banner {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .four .office-mobile {
-  position: absolute;
+  position: fixed;
   left: 10%;
-  top: 50px;
+  bottom: 50px;
 }
 .four .mobile-bottom-background {
   background-color: #656F8B;
-  padding-top: 400px;
+  height:450px;
 }
 .four .mobile-bottom-spacer {
   background-color: #32405E;
