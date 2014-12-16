@@ -21,8 +21,13 @@ head(lang='en')
     #content {
       overflow-x: scroll;
     }
+
     .page_container {
       position: relative;
       margin: 0 auto 0;
       z-index: 3;
     }
+
+  if locals.NODE_ENV === 'development'
+    block js
+      script(src='http://localhost:35729/livereload.js')

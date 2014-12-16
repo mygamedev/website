@@ -1,22 +1,9 @@
-doctype html
-html
-  include includes/head
-  body
+extends layout_page
 
-    // Navigation Menu
-    include includes/nav
+block content
 
-    #content.container-fluid
-      include includes/menu
-
-      include index/one
-      include index/twoa
-      include index/twob
-      include index/three
-      include index/four
-
-    script(src='/components/jquery/dist/jquery.min.js')
-    script(src='/components/bootstrap/dist/js/bootstrap.min.js')
-    script(src='/components/console.image/console.image.min.js')
-    script(src='/js/index.js')
-    script(src='/js/menu.js')
+  include index/one
+  include index/twoa
+  include index/twob
+  include index/three
+  include index/four
