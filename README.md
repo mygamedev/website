@@ -1,7 +1,7 @@
-mygamedev
-=========
+MyGameDev 2020
+==============
 
-MyGameDev is a portal that unites the industry’s practitioners, policy makers, parents, students, educators, start-ups and investors.
+MyGameDev 2020 is a portal that unites the industry’s practitioners, policy makers, parents, students, educators, start-ups and investors.
 
 
 This is currently hosted at http://mygamedev.asia/
