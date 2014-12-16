@@ -1,0 +1,5 @@
+script(src='/components/jquery/dist/jquery.min.js')
+script(src='/components/bootstrap/dist/js/bootstrap.min.js')
+script(src='/components/console.image/console.image.min.js')
+script(src='/js/menu.js')
+script(src='/js/index.js')
