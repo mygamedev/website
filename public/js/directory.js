@@ -11,6 +11,7 @@
   }
 
   hideall();
+  $('#gamedev').show();
 
   $('#gamedevb').on('click',        function () { hideall(); $('#gamedev').show(); });
   $('#multibizb').on('click',       function () { hideall(); $('#multibiz').show(); });
