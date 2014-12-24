@@ -1,31 +1,24 @@
-@font-face {
-  font-family: 'Aqua Grotesque';
-  src: url('../fonts/aqua.ttf') format('truetype')
-}
-@font-face {
-  font-family: 'Oswald Bold';
-  src: url('../fonts/Oswald-Bold.otf') format('opentype')
-}
-@font-face {
-  font-family: 'Oswald Light';
-  src: url('../fonts/Oswald-Light.otf') format('opentype')
-}
-@font-face {
-  font-family: 'Oswald Regular';
-  src: url('../fonts/Oswald-Regular.otf') format('opentype')
-}
-@font-face {
-  font-family: 'Oswald Stencil';
-  src: url('../fonts/Oswald-Stencil.otf') format('opentype')
-}
-@font-face {
-  font-family: 'Bebas';
-  src: url('../fonts/BEBAS.ttf') format('truetype')
-}
+@font-face {  font-family: 'Aqua Grotesque';  src: url('../fonts/aqua.ttf')           format('truetype')  }
+@font-face {  font-family: 'Oswald Bold';     src: url('../fonts/Oswald-Bold.otf')    format('opentype')  }
+@font-face {  font-family: 'Oswald Light';    src: url('../fonts/Oswald-Light.otf')   format('opentype')  }
+@font-face {  font-family: 'Oswald Regular';  src: url('../fonts/Oswald-Regular.otf') format('opentype')  }
+@font-face {  font-family: 'Oswald Stencil';  src: url('../fonts/Oswald-Stencil.otf') format('opentype')  }
+@font-face {  font-family: 'Bebas';           src: url('../fonts/BEBAS.ttf')          format('truetype')  }
+
+
+
 * {
-  font-family: "Helvetica";
+  font-family: Helvetica, sans-serif;
   letter-spacing: 0.05em;
 }
+
+
+
+
+
+
+
+
 
 
 /****************/
@@ -40,6 +33,15 @@
 .section .spacer-80      { padding-bottom: 80px; }
 .section .spacer-20      { padding-bottom: 20px; }
 .section .spacer-10      { padding-bottom: 10px; }
+
+
+
+
+
+
+
+
+
 
 /*****************************/
 /*  Old stuff from the index */
