@@ -27,20 +27,24 @@
   letter-spacing: 0.05em;
 }
 
+
+/****************/
 /* Common Stuff */
-.section      { margin-left: -15px; margin-right: -15px; }
-.section .row { margin-left:  15px; margin-right:  15px; }
+/****************/
 
+.section                 { margin-left: -15px; margin-right: -15px; }
+.section .mast-title     { font-family: "Oswald Bold"; font-size: 45px; }
+.section .mast-desc      { font-weight: 400; font-size: 16px; max-width: 330px; margin: 0 auto; }
+.section .row            { max-width: 1280px; margin: 0 auto; }
 .section .img-responsive { margin: 0 auto;       }
-
 .section .spacer-80      { padding-bottom: 80px; }
 .section .spacer-20      { padding-bottom: 20px; }
 .section .spacer-10      { padding-bottom: 10px; }
 
+/*****************************/
+/*  Old stuff from the index */
+/*****************************/
 
-/*****************************/
-/*  Old Stuff From the index */
-/*****************************/
 /* ONE */
 .one {
   background-color: #FFF0D8;
@@ -56,10 +60,12 @@
 .one .spacer {
   height: 50px;
 }
+
 @media (max-width: 917px) {
   .one-mast     { display: none;   }
   .one-minimast { display: inline; }
 }
+
 .one .dirigible {
   position: absolute;
   left: 150px;
