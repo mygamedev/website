@@ -31,6 +31,7 @@
 .section .row            { max-width: 1280px; margin: 0 auto; }
 .section .img-responsive { margin: 0 auto;       }
 .section .spacer-80      { padding-bottom: 80px; }
+.section .spacer-40      { padding-bottom: 40px; }
 .section .spacer-20      { padding-bottom: 20px; }
 .section .spacer-10      { padding-bottom: 10px; }
 
