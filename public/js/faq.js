@@ -16,4 +16,9 @@
   $('#stdnprtb').on('click', function () { hideall(); $('#stdnprt').show(); });
   $('#generalb').on('click', function () { hideall(); $('#general').show(); });
 
+
+
+
+
+
 }());
