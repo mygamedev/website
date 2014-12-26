@@ -1,23 +1,6 @@
 (function () {
   'use strict';
 
-  function hideall() {
-    $('#gamedev').hide();
-    $('#gameids').hide();
-    $('#stdnprt').hide();
-    $('#general').hide();
-  }
-
-  hideall();
-  $('#gamedev').show();
-
-  $('#gamedevb').on('click', function () { hideall(); $('#gamedev').show(); });
-  $('#gameidsb').on('click', function () { hideall(); $('#gameids').show(); });
-  $('#stdnprtb').on('click', function () { hideall(); $('#stdnprt').show(); });
-  $('#generalb').on('click', function () { hideall(); $('#general').show(); });
-
-
-
   var faq = (function (){
 
     var colors = [  {head: "#CA6E7B", body: "#EDAEAE"},
@@ -53,16 +36,13 @@
 
     function getRandomAvatarIMG() {
       return '<img ' +
-        'style="width: 220px;" ' +
-        'src="/img/faq/faq_avatar_' + getRandomInt(1,5) + '.svg" ' +
-        '/>';
+             'style="width: 220px;" ' +
+             'src="/img/faq/faq_avatar_' + getRandomInt(1,5) + '.svg" ' +
+             '/>';
     }
 
     return function (faqTitle, faqContents, colorIdx) {
 
-
-      //faqTitle = replaceAll(' ', '', faqTitle);
-      //faqTitle = replaceAll('?', '', faqTitle);
       faqTitle = faqTitle.toUpperCase();
 
       var headId    = "head" + replaceAll(' ', '', replaceAll('?', '', replaceAll(',', '', faqTitle))),
@@ -71,8 +51,8 @@
           colorPair = colors[colorIdx];
 
       var elem = '<div id="' + headId + '" name="gamedevelopment" class="titlebar" style="background-color: ' + colorPair.head + '; margin-left: -15px; margin-right: -15px;" role="tab">'
-                 + '<h4 class="text-center" style="margin-top:0px; margin-bottom:0px; height: 104px;padding-top: 40px;" data-toggle="collapse" data-parent="#accordion" href="#' + bodyId + '" aria-expanded="false" aria-controls="collapseTwo">'
-                   + '<a style="color: white; font-size: 20px; font-family: Avenir; text-decoration: none;">' + faqTitle + '</a>'
+                 + '<h4 class="text-center" style="margin-top:0px; margin-bottom:0px; padding-bottom: 15px; padding-top: 40px;" data-toggle="collapse" data-parent="#accordion" href="#' + bodyId + '" aria-expanded="false" aria-controls="collapseTwo">'
+                   + '<a style="color: white; font-size: 18px; font-family: Avenir; text-decoration: none;">' + faqTitle + '</a>'
                    + '<br/>'
                    + '<img style="height: 10px; margin-top: 16px;" src="/img/faq/faq_down_arrow.svg" />'
                  + '</h4>'
@@ -80,12 +60,13 @@
 
                + '<div id="' + bodyId + '" class="collapse" style="background-color: ' + colorPair.body + '; margin-left: -15px; margin-right: -15px;" role="tabpanel", aria-labelledby="' + headId + '" >'
                  + '<div class="row" style="padding-top:40px; padding-bottom:40px;max-width: 900px; margin: 0 auto;">'
-                   + '<div class="col-sm-4 text-center">' + getRandomAvatarIMG() + '</div>'
-                   + '<div class="col-sm-8">' + content + '</div>'
+                   + '<div class="col-sm-4 text-center" style="padding-bottom: 20px;">' + getRandomAvatarIMG() + '</div>'
+                   + '<div class="col-sm-8" style="color: #223967; font-size: 16px; font-family: Avenir;">' + content + '</div>'
                  + '</div>'
                + '</div>';
 
       $('#accordion').append(elem);
+      return "head" + replaceAll(' ', '', replaceAll('?', '', replaceAll(',', '', faqTitle)));
     }
   }());
 
@@ -99,6 +80,8 @@
     'Though every aspect in the game developing process is important, the first factor that a game will be judged on are its graphics. This is where game artists come into play. Game artists specialize in the creation of everything visual in the game, from characters to the interface.',
     'Game Design is the art of crafting experiences, thus the job of a game designer is to transform a game idea into a reality. This specialization teaches students the fields of game mechanics, game-play, game balancing, and level design.', 'Last but not least, Game Technology; the dazzling special effects, intriguing dialogues, even the enjoyable game-play system, are bound together by strict and complex lines of code. These codes govern how the game functions, when certain sounds are meant to happen, and more importantly, makes the game play smoothly.'
   ], 1);
+
+
 
   // THE GAMES INDUSTRY
   faq('How big is the global Games Industry?', [
@@ -121,6 +104,8 @@
   faq('Why do we need a critical mass of skilled talents?', [
     'The primary measure of success in a digital game region is a critical mass of game developers.  Achieving a certain volume of workers provides a region with the necessary scale to make other key success factors like incubation, knowledge transfer and a sustainable ecosystem attainable. Without critical mass, it is difficult to find support, retain talent, and attract international visibility and credibility.'
   ], 5);
+
+
 
   // STUDENTS & PARENTS
   faq('Why study Electronic Games?', [
