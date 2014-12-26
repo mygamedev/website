@@ -222,11 +222,11 @@
 	<g>
 		<rect x="84" y="25.5" fill="#F6EFDF" width="216" height="248"/>
 		<rect x="94" y="36.5" fill="#D79755" width="193" height="237"/>
-		<rect x="104" y="41.5" fill="#78CDCE" width="88" height="233"/>
-		<rect x="193" y="41.5" fill="#EED7AF" width="87" height="233"/>
-		<polygon fill="#EED7AF" points="165,274.5 104,274.5 104,41.1 165,58.6 		"/>
+		<rect x="104" y="41.5" fill="#78CDCE" width="88" height="232"/>
+		<rect x="193" y="41.5" fill="#EED7AF" width="87" height="232"/>
+		<polygon fill="#EED7AF" points="165,273.5 104,273.5 104,41.1 165,58.5 		"/>
 		<polygon fill="#6F542E" points="95.6,36.5 102.6,44.5 277.4,44.5 288.1,36.5 		"/>
-		<rect x="186" y="44.5" fill="#AF8B5A" width="10" height="231"/>
+		<rect x="186" y="44.5" fill="#AF8B5A" width="10" height="229"/>
 		<g>
 			<path fill="#FFFFFF" d="M209.6,110.8c0-13.4,11.3-24.3,25.2-24.3c13.9,0,25.2,10.9,25.2,24.3c0,13.4-11.3,24.3-25.2,24.3
 				C220.9,135.1,209.6,124.2,209.6,110.8z"/>
