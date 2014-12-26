@@ -1,5 +1,13 @@
 .section(style='background-color: #096E6C')
 
-  .row(style='height:268px;')
+  .row.hidden-xs.hidden-sm(style='height:268px;')
     .col-md-12
       img.img-responsive(style='position:absolute; left: 0%; right: 0%; top: 1700%; height: 268px; margin: 0 auto;', src='/img/about/about_partners_banner.png')
+
+  .row.visible-sm(style='height:268px;')
+    .col-sm-12
+      img.img-responsive(style='position:absolute; left: 0%; right: 0%; top: 1700%; height: 268px; margin: 0 auto;', src='/img/about/about_partners_banner.png')
+
+  .row.visible-xs(style='height:200px;;')
+    .col-xs-12
+      img.img-responsive(style='position:absolute; left: 0%; right: 0%; top: 6000%; height: 150px; margin: 0 auto;', src='/img/about/about_partners_banner.png')
