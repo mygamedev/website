@@ -6,20 +6,46 @@
 @font-face {  font-family: 'Bebas';           src: url('../fonts/BEBAS.ttf')          format('truetype')  }
 
 
-
 * {
   font-family: Helvetica, sans-serif;
   letter-spacing: 0.05em;
 }
 
 
+/*************/
+/** nav bar **/
+/*************/
 
+.navbar {
+    background-color: #F48374;
+    border-radius: 0px;
+    margin: 0 auto;
+    border: 0px;
+}
 
+.navbar-nav > li > a {
+    color: #894040;
+    text-shadow: none;
+    font-family: "Avenir";
+    font-weight: 800;
+    font-size: 11px;
+}
 
+.navbar-nav > li > a:hover {
+    background-color: #894040;
+    color: #FFF0D8;
+}
 
+.nav.nav-center {
+    display: inline-block;
+    left: 0;
+    right: 0;
+}
 
-
-
+.nav.nav-center {
+    margin: 0;
+    float: none;
+}
 
 /****************/
 /* Common Stuff */
@@ -53,7 +79,7 @@
 /* ONE */
 .one {
   background-color: #FFF0D8;
-  border-top: 7px solid #F48374;
+  /*border-top: 7px solid #F48374;*/
   margin-left: -15px;
   margin-right: -15px;
 }
