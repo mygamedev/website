@@ -17,7 +17,7 @@
       $stage.height(stage_height - (video_height - $video.height()));
     });
 
-
+    $('.small-video').fitVids();
 
   });
 
