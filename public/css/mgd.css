@@ -42,20 +42,14 @@
     color: #FFF0D8;
 }
 
-.nav.nav-center {
-    display: inline-block;
-    left: 0;
-    right: 0;
-}
+.nav.nav-center { display: inline-block; left: 0; right: 0; }
 
 .nav.nav-center {
     margin: 0;
     float: none;
 }
 
-.icon-bar {
-    background-color: #894040;
-}
+.icon-bar { background-color: #894040; }
 
 /****************/
 /* Common Stuff */
