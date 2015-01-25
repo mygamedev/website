@@ -10,6 +10,7 @@
     "bootstrap": "~3.3.1",
     "jquery": "~2.1.1",
     "fitvids": "~1.1.0",
-    "console.image": "*"
+    "console.image": "*",
+    "isotope": "~2.1.0"
   }
 }
