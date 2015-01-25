@@ -5,14 +5,11 @@ block content
     include directory/1
     include directory/2
 
-  if locals.NODE_ENV != 'development'
+  if locals.NODE_ENV !== 'development'
     .row.text-center(style='background-color: #9396bc')
       img(src='/img/directory/Directory_Header.jpg')
-
     .row.text-center(style='background-color: #fab493')
       img(src='/img/directory/Directory_section.jpg' usemap='contentmap')
-
-
     #gamedev.row.text-center(style='background-color: #00878a')
       img(src='/img/directory/Directory_content_gamedev.jpg')
     #multibiz.row.text-center(style='background-color: #00878a')

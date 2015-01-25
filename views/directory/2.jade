@@ -3,11 +3,21 @@
   .row
     .spacer-40
 
+
   .row.text-center(style='max-width: 900px;')
     .col-md-6
-      input(type='text', style='width: 100%;', placeholder='type to search...')
-
+      .input-group
+        input.form-control(type='text', placeholder='Search for...')
+        span.input-group-btn
+          button.btn(type='button')
+            span.glyphicon.glyphicon-search
+      .visible-xs.visible-sm
+        .spacer-20
     .col-md-6
+      #category-header.text-center
+        .row(style='height: 13px;')
+        .row
+          span by Categories...
 
   .row
     .spacer-40

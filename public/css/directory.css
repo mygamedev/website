@@ -1,18 +1,52 @@
-input[type=text], textarea {
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    outline: none;
-    padding: 3px 0px 3px 3px;
-    margin: 5px 1px 3px 0px;
-    border: none;
+
+/**
+ * Search input styling
+ **/
+
+input[type=text] {
     background-color: #FDCFAC;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    color: #C74C59;
+    height: 45px;
+    outline: none;
+    margin-right: -1px;
 }
 
-input[type=text]:focus, textarea:focus {
-    box-shadow: none
-    padding: 3px 0px 3px 3px;
-    margin: 5px 1px 3px 0px;
+input[type=text]:focus                      { box-shadow: none; border: none; }
+input[type=text]:-moz-placeholder           { color: #C74C59; }
+input[type=text]::-moz-placeholder          { color: #C74C59; }
+input[type=text]::-ms-input-placeholder     { color: #C74C59; }
+input[type=text]::-webkit-input-placeholder { color: #C74C59; }
+
+
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
+    background-color: #FDCFAC;
+    border-radius: 0;
+    height: 45px;
+    outline: none;
+}
+
+.input-group-btn:last-child > .btn:active,
+.input-group-btn:last-child > .btn-group:active {
+    box-shadow: none;
     border: none;
 }
+
+/**
+ * Category stuff
+ **/
+#category-header {
+    width: 100%;
+    background-color: #873BB6;
+    height: 45px;
+}
+
+#category-header span {
+    font-family: Avenir;
+    font-weight: 600;
+    color: white;
+}
+
