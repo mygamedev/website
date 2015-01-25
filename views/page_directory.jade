@@ -1,34 +1,38 @@
 extends layout_page
 block content
 
+  if locals.NODE_ENV === 'development'
+    include directory/1
+    include directory/2
 
-  .row.text-center(style='background-color: #9396bc')
-    img(src='/img/directory/Directory_Header.jpg')
+  if locals.NODE_ENV != 'development'
+    .row.text-center(style='background-color: #9396bc')
+      img(src='/img/directory/Directory_Header.jpg')
 
-  .row.text-center(style='background-color: #fab493')
-    img(src='/img/directory/Directory_section.jpg' usemap='contentmap')
-
-
-  #gamedev.row.text-center(style='background-color: #00878a')
-    img(src='/img/directory/Directory_content_gamedev.jpg')
-  #multibiz.row.text-center(style='background-color: #00878a')
-    img(src='/img/directory/Directory_content_multibiz.jpg')
-  #artoutsource.row.text-center(style='background-color: #00878a')
-    img(src='/img/directory/Directory_content_artoutsource.jpg')
-  #gamepublishers.row.text-center(style='background-color: #00878a')
-    img(src='/img/directory/Directory_content_gamepublishers.jpg')
-  #institutions.row.text-center(style='background-color: #00878a')
-    img(src='/img/directory/Directory_content_institutions.jpg')
-  #incubator.row.text-center(style='background-color: #00878a')
-    img(src='/img/directory/Directory_content_incubator.jpg')
+    .row.text-center(style='background-color: #fab493')
+      img(src='/img/directory/Directory_section.jpg' usemap='contentmap')
 
 
-  map(name='contentmap')
-    area#gamedevb(         shape='Rect' coords='651,152,795,300'  href='#' )
-    area#multibizb(        shape='Rect' coords='837,152,953,300'  href='#' )
-    area#artoutsourceb(    shape='Rect' coords='988,152,1120,300' href='#' )
-    area#gamepublishersb(  shape='Rect' coords='651,340,795,485'  href='#' )
-    area#institutionsb(    shape='Rect' coords='837,340,953,485'  href='#' )
-    area#incubatorb(       shape='Rect' coords='990,340,1120,485' href='#' )
+    #gamedev.row.text-center(style='background-color: #00878a')
+      img(src='/img/directory/Directory_content_gamedev.jpg')
+    #multibiz.row.text-center(style='background-color: #00878a')
+      img(src='/img/directory/Directory_content_multibiz.jpg')
+    #artoutsource.row.text-center(style='background-color: #00878a')
+      img(src='/img/directory/Directory_content_artoutsource.jpg')
+    #gamepublishers.row.text-center(style='background-color: #00878a')
+      img(src='/img/directory/Directory_content_gamepublishers.jpg')
+    #institutions.row.text-center(style='background-color: #00878a')
+      img(src='/img/directory/Directory_content_institutions.jpg')
+    #incubator.row.text-center(style='background-color: #00878a')
+      img(src='/img/directory/Directory_content_incubator.jpg')
+
+
+    map(name='contentmap')
+      area#gamedevb(         shape='Rect' coords='651,152,795,300'  href='#' )
+      area#multibizb(        shape='Rect' coords='837,152,953,300'  href='#' )
+      area#artoutsourceb(    shape='Rect' coords='988,152,1120,300' href='#' )
+      area#gamepublishersb(  shape='Rect' coords='651,340,795,485'  href='#' )
+      area#institutionsb(    shape='Rect' coords='837,340,953,485'  href='#' )
+      area#incubatorb(       shape='Rect' coords='990,340,1120,485' href='#' )
 
   include common/contact
