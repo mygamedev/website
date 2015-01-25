@@ -72,3 +72,11 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
 .categories .a { color: #009CA6; }
 .categories .b { color: #1E384F; }
 .categories .c { color: #772136; }
+
+#search-header {
+    color: #F9F8EC;
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 0;
+}
