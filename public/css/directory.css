@@ -50,3 +50,25 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
     color: white;
 }
 
+.categories span {
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.categories .col-md-4,
+.categories .col-xs-6 {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.categories .col-md-4:hover,
+.categories .col-xs-6:hover{
+    background-color: #FDCFAC;
+}
+
+.categories .a { color: #009CA6; }
+.categories .b { color: #1E384F; }
+.categories .c { color: #772136; }
