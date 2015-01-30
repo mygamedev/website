@@ -1,6 +1,561 @@
 [
-
-
+  {
+    "title": "Animasia Studio",
+    "urlname": "",
+    "url": "animasia-studio.com",
+    "address": "No. 2 & 4, Jalan Sri Jati 2,Taman Sri Jati, Off Jalan Puchong, 58200 Kuala Lumpur, Malaysia",
+    "telephone": [
+      "+603 7784 7731",
+      "+603 7784 6987"
+    ],
+    "email": ["info@animasia-studio.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Common Extract Sdn Bhd",
+    "urlname": "",
+    "url": "commonextract.com",
+    "address": "Menara MSC Cyberport, No.5, Jalan Bukit Meldrum, 80300 Johor Bahru, Malaysia",
+    "telephone": [""],
+    "email": ["enquiry@commonextract.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Forest Interactive Sdn Bhd",
+    "urlname": "",
+    "url": "forest-interactive.com",
+    "address": "C-5-1, Megan Avenue 2, 12 Jalan Yap Kwan Seng, 50450 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2162 2728"],
+    "email": ["info@forest-interactive.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "FrameMotion Studio Sdn Bhd",
+    "urlname": "",
+    "url": "framemotion.net",
+    "address": "A-3-1, Block A, No. 1, Jalan PJS 8/15, Dataran Mentari, 46150 Petaling Jaya, Selangor, Malaysia",
+    "telephone": [
+      "+6012 2388 162",
+      "+6012 3903 756",
+      "+6017 4833 166"
+    ],
+    "email": ["info@forest-interactive.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Funnel Malaysia Sdn Bhd",
+    "urlname": "",
+    "url": "funnel.my",
+    "address": "Suite 2B-8-1, Level 8, Block 2B, Plaza Sentral, Jalan Stesen Sentral 5, 50470 Kuala Lumpur, Malaysia",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "FunTech",
+    "urlname": "",
+    "url": "funtech.my",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Gamebit Labs Sdn Bhd",
+    "urlname": "",
+    "url": "gamebit-labs.com",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "HezMedia Interactive Sdn Bhd",
+    "urlname": "",
+    "url": "hezmedia.com",
+    "address": "2A-3, Jalan PJS 8/6, Sunway Mentari, 46150 Petaling Jaya, Malaysia",
+    "telephone": ["+603 5613 3770"],
+    "email": ["info@hezmedia.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "iKNOWvation Lab",
+    "urlname": "",
+    "url": "iknowvationlab.com",
+    "address": "B306, 3rd Floor, Puteri Palma, IOI Resort, Putrajaya, 62502 Putrajaya, Malaysia",
+    "telephone": ["+603 5613 3770"],
+    "email": ["info@hezmedia.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "iPluz Solutions (Malaysia)",
+    "urlname": "",
+    "url": "ipluz.com",
+    "address": "3A28, Block A, No. 1, Jalan SS20/27, Damansara Intan,47400 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+6018 3322 218"],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Kea Studios",
+    "urlname": "",
+    "url": "keastudios.com",
+    "address": "1st floor, Lot 882 of 875, Waterfront Commercial Centre, Jalan Permaisuri, 98000 Miri, Malaysia",
+    "telephone": [
+      "+608 5420 004",
+      "+6016 860 3679"
+    ],
+    "email": ["contactus@keastudios.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Les’ Copaque Games Development Inc (LCGDI)",
+    "urlname": "",
+    "url": "lcgdi.com",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Lightgear Lab",
+    "urlname": "",
+    "url": "lhwave.com",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "M-biz Global (Malaysia)",
+    "urlname": "",
+    "url": "mbizglobal.net",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Mocome Mobile Communications Media Sdn Bhd",
+    "urlname": "",
+    "url": "moco-me.com",
+    "address": "A-33A-3, Menara UOA Bangsar Tower A, Jalan Bangsar Utama 1, 59000 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2201 4144"],
+    "email": ["enquiry@moco-me.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "OM Technologies",
+    "urlname": "",
+    "url": "omtechnologies.com.my",
+    "address": "G-C-43, Block C, Kelana Square, No. 17 Jalan SS7/26, Kelana Jaya, 47301 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["1800 22 2166"],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Pinheads Interactive Sdn Bhd",
+    "urlname": "",
+    "url": "pinheadsinteractive.com",
+    "address": "41G, Jalan Bestari 5/5, Taman Nusa Bestari, Skudai, 81300 Johor, Malaysia",
+    "telephone": [""],
+    "email": [""],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "River Walk Multimedia Sdn Bhd",
+    "urlname": "",
+    "url": "riverwalk.asia",
+    "address": "12A-3, Jalan PJU8/5C, Perdana Business Centre, Bandar Damansara Perdana, 47820 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+603 7726 6560"],
+    "email": ["info@riverwalk.asia"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Soulbiz Entertainment",
+    "urlname": "",
+    "url": "soulbiz-ent.com",
+    "address": "",
+    "telephone": [""],
+    "email": ["enquiry@soulbiz-ent.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Studio 212 Sdn Bhd",
+    "urlname": "",
+    "url": "studio-2-1-2.com",
+    "address": "C-7-6, Block C, Megan Avenue 1, 189 Jalan Tun Razak, 50400 Kuala Lumpur, Malaysia",
+    "telephone": [
+      "+603 2722 8285",
+      "+603 2722 8286"
+    ],
+    "email": ["start.here@studio-2-1-2.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "TapFantasy Sdn Bhd",
+    "urlname": "",
+    "url": "tapfantasy.com",
+    "address": "MaGIC Centre, Block 3730, Persiaran APEC, 63000 Cyberjaya, Malaysia",
+    "telephone": [""],
+    "email": ["support@tapfantasy.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Terato Tech Sdn Bhd",
+    "urlname": "",
+    "url": "teratotech.com",
+    "address": "Suite 805A, Bangi Business Park, Off Persiaran Kemajuan, 43650 Bandar Baru Bangi, Selangor, Malaysia",
+    "telephone": ["+6012 6999 662"],
+    "email": ["support@terato.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Tomato Animation Sdn Bhd",
+    "urlname": "",
+    "url": "tomatoanimation.com",
+    "address": "E-02-06, Pusat Dagangan NZX, Jalan PJU 1A/41, Ara Jaya, 47301 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+603 7886 9800"],
+    "email": ["hello@tomatoanimation.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "Xevetor Sdn Bhd",
+    "urlname": "",
+    "url": "xevetor.com",
+    "address": "MaGIC Centre, Block 3730, Persiaran APEC, 63000 Cyberjaya, Malaysia",
+    "telephone": [
+      "+6012 9310 029",
+      "+603 8322 2398"
+    ],
+    "email": ["info@xevetor.com"],
+    "category": "Multi Business Companies"
+  },
+  {
+    "title": "1337 Accelerator",
+    "1337 Ventures Sdn Bhd",
+    "urlname": "",
+    "url": "1337accelerator.com",
+    "address": "A-3-2 Centrio, No.1 Jalan Pantai Murni, 59200 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2166 1879"],
+    "email": ["info@1337ventures.net"],
+    "category": "Incubation"
+  },
+  {
+    "title": "MAGIC-X",
+    "urlname": "",
+    "url": "magicx.utm.my",
+    "address": "UTM-IRDA Digital Media Centre, K-Economy Research Alliance T03, Level 1, University Industry Research Lab (UIRL) Building, Universiti Teknologi Malaysia, 81310 Skudai, Johor Bahru, Malaysia",
+    "telephone": ["+603 5532 007"],
+    "email": ["info@magicx.my"],
+    "category": "Incubation"
+  },
+  {
+    "title": "Asiasoft CiB Net Station Sdn Bhd",
+    "urlname": "",
+    "url": "asiasoft.net",
+    "address": "Suite 6.05-6.05,6th Floor Menara Summit,Persiaran Kewajipan USJ 1, 47600 UEP Subang Jaya, Selangor, Malaysia",
+    "telephone": ["+603 8023 8315"],
+    "email": ["partner@cib.com.my"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Cubinet Interactive Sdn Bhd",
+    "urlname": "",
+    "url": "cubinet.com",
+    "address": "Unit 11-3, Level 3, The Boulevard, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2298 2200"],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Emozin Sdn Bhd",
+    "urlname": "",
+    "url": "emozin.com",
+    "address": "Level 15.01, 1 First Avenue, 2A Dataran Bandar Utama,Damansara PJ, 47800 Kuala Lumpur, Malaysia",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "iG-Interactive",
+    "urlname": "",
+    "url": "ig-interactive.com",
+    "address": "Lot 3-1, Incubator 3, Technology Park Malaysia, Lebuhraya Puchong-Sg Besi,57000 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 8994 1967"],
+    "email": ["eric@ig-interactive.com"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Gambooz",
+    "urlname": "",
+    "url": "gambooz.com",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Gameflier",
+    "urlname": "",
+    "url": "gameflier.com.my",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Game Pro International Sdn Bhd",
+    "urlname": "",
+    "url": "gamepro.com.my",
+    "address": "1-123 Kompleks Mayang Mall, Jalan Mayang Pasir 1, 11950 Bayan Baru, Penang, Malaysia",
+    "telephone": ["+604 645 8000"],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Garena Malaysia Sdn Bhd",
+    "urlname": "",
+    "url": "garena.my",
+    "address": "Suite 09.02, Level 9, The Gardens North Tower, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2282 2490"],
+    "email": ["info@garena.com"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Megamobile",
+    "urlname": "",
+    "url": "megamobile.com.my",
+    "address": "Lot T3-7, 3rd Floor, KPMG Tower, No. 8, First Avenue, Bandar Utama, 47800 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+603 7728 0688"],
+    "email": ["care@megamobile.com.my"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "MMOG",
+    "urlname": "",
+    "url": "mmog.asia",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "MOL Global Inc",
+    "urlname": "",
+    "url": "mol.com",
+    "address": "",
+    "telephone": ["+603 2144 8787"],
+    "email": ["helpdesk@mol.com"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Sendi Mutiara Multimedia Sdn Bhd",
+    "urlname": "",
+    "url": "smm.net.my",
+    "address": "No. 28, Jalan Kamuning, Off Jalan Imbi, 55100 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2141 7233 (ext 208)"],
+    "email": ["cs@smm.net.my"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Wakfu Malaysia",
+    "urlname": "",
+    "url": "facebook.com/wakfu.my",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "Weraku Games",
+    "urlname": "",
+    "url": "weraku.com",
+    "address": "Suite 805A, Bangi Business Park, Off Persiaran Kemajuan, 43650 Bandar Baru Bangi, Selangor, Malaysia",
+    "telephone": [""],
+    "email": ["support@weraku.com"],
+    "category": "Game Publishers"
+  },
+  {
+    "title": "ACE Ed-Venture Studio",
+    "urlname": "",
+    "url": "aceedventure.com",
+    "address": "16, Jalan USJ9/5N, Subang Business Centre, 47620 Subang Jaya, Selangor, Malaysia",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Activate Sdn Bhd (Malaysia)",
+    "urlname": "",
+    "url": "activateplay.com",
+    "address": "B-8-2, Northpoint Office 1 Medan Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2202 0366"],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Aizo Digital Works Sdn Bhd",
+    "urlname": "",
+    "url": "aizodigitalworks.com",
+    "address": "C-3-07 SME Technopreneur Centre 2, 2260 Jalan Usahawan 1, 63000 Cyberjaya, Selangor, Malaysia",
+    "telephone": ["+603 8319 2751"],
+    "email": ["info@aizodigitalworks.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "AppXplore Sdn Bhd",
+    "urlname": "",
+    "url": "appxplore.com",
+    "address": "Suite 1B-3-1, Level 3, Block 1B, Plaza Sentral, KL Sentral, 50470, Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2631 2268"],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Ammobox Studios Sdn Bhd",
+    "urlname": "",
+    "url": "ammoboxstudios.com",
+    "address": "",
+    "telephone": [""],
+    "email": ["info@ammoboxstudios.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Big Bad Robots",
+    "urlname": "",
+    "url": "bigbadrobots.com",
+    "address": "No. 5, Jalan SS1/36, 47300 Petaling Jaya, Selangor, Malaysia",
+    "telephone": [""],
+    "email": ["biz@bigbadrobots.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Big Tent Entertainment Sdn Bhd (Malaysia)",
+    "urlname": "",
+    "url": "bigtent.tv",
+    "address": "C-1-17 SME, Technopreneur Centre 2, (SME 2) Cyberjaya 2, 2260 Jalan Usahawan 1, 63000 Cyberjaya, Selangor, Malaysia",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Citizen Tree Sdn Bhd",
+    "urlname": "",
+    "url": "citizentree.net",
+    "address": "",
+    "telephone": [""],
+    "email": ["contact@citizentree.net"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Dilectus Games Sdn Bhd",
+    "urlname": "",
+    "url": "dilectusgames.com",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "E-One Studio",
+    "urlname": "",
+    "url": "e-onestudio.com",
+    "address": "Suite 1b-1-1, Plaza Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2261 4311"],
+    "email": ["enquiry@e-onestudio.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "FencingFleas Sdn Bhd",
+    "urlname": "",
+    "url": "fencingfleas.com",
+    "address": "Suite 1B-3-1, Block 1B, Level 3, Plaza Sentral, 50470 Kuala Lumpur, Malaysia",
+    "telephone": [""],
+    "email": ["contact@fencingfleas.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "GeoloPigs",
+    "urlname": "",
+    "url": "geolopigsgames.com",
+    "address": "",
+    "telephone": [""],
+    "email": ["pigs@geolopigs.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Liquid Rock Games Sdn Bhd",
+    "urlname": "",
+    "url": "liquidrockgames.com",
+    "address": "",
+    "telephone": [""],
+    "email": ["contact@liquidrockgames.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Kurechii",
+    "urlname": "",
+    "url": "kurechii.com",
+    "address": "",
+    "telephone": [""],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Mediasoft Entertainment Sdn Bhd",
+    "urlname": "",
+    "url": "vmediasoft.com",
+    "address": "No 25, Jalan Puteri 7/15, The Cube Bandar Puteri, 47100 Puchong, Selangor, Malaysia",
+    "telephone": ["+603 8051 6333"],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Ninety Nine Works",
+    "urlname": "",
+    "url": "ninetynineworks.com",
+    "address": "B2-3A-35, Leisure Commerce Square, 103, Jalan PJS 8/9, 46150 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+6012 3855 079"],
+    "email": ["info.99works@gmail.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Proteus Technologies Sdn Bhd",
+    "urlname": "",
+    "url": "proteusgames.com",
+    "address": "906, Level 9, Block B2, Leisure Commerce Square, No 9, Jalan PJS 8/9, 46150 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+603 7863 0570"],
+    "email": [""],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Spacepup Entertainment",
+    "urlname": "",
+    "url": "gospacepups.com",
+    "address": "",
+    "telephone": [""],
+    "email": ["gospacepups@gmail.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Sprocketpunk Sdn Bhd",
+    "urlname": "",
+    "url": "sprocketpunk.com",
+    "address": "57-1, Biz Avenue II, Neo Cyber, 63000 Cyberjaya, Selangor, Malaysia",
+    "telephone": ["+603 8825 1362"],
+    "email": ["leon@sprocketpunk.com"],
+    "category": "Game Development Studios"
+  },
+  {
+    "title": "Wigu Sdn Bhd",
+    "urlname": "",
+    "url": "wigugames.com",
+    "address": "B-07-05, Level 7, Block B, Sky Park, One City @ USJ 25, Jalan USJ 25/1, 47650 Subang Jaya, Selangor, Malaysia",
+    "telephone": ["+603 5115 0279"],
+    "email": ["contact@wigugames.com"],
+    "category": "Game Development Studios"
+  },
   {
     "title": "Codemasters Studios Sdn Bhd",
     "urlname": "",
@@ -51,7 +606,7 @@
     "telephone": [
       "+603 6151 3302",
       "+6017 2306 381",
-      "++6012 3379 160"
+      "+6012 3379 160"
     ],
     "email": ["info@illusionist.com.my"],
     "category": "Art Outsoucing Studios"
@@ -104,10 +659,6 @@
     "email": [""],
     "category": "Art Outsoucing Studios"
   },
-
-
-
-
   {
     "title": "Claz'room Academy",
     "url": "http://clazroom.com/",
@@ -145,11 +696,6 @@
     "telephone": ["03-42883070"],
     "category": "training academy"
   },
-
-
-
-
-
   {
     "title": "KDU University College",
     "urlname": "Bachelor of Game Development (Hons)",
