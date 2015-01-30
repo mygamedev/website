@@ -1,5 +1,42 @@
 [
   {
+    "title": "Claz'room Academy",
+    "url": "http://clazroom.com/",
+    "address": "F-02-02, Neo Damansara, Jalan PJU 8/1, Damansara Perdana, 47820, Petaling Jaya, Selangor",
+    "email": ["info@clazroom.com"],
+    "telephone": ["03-7729 9668"],
+    "category": "training academy"
+  },
+  {
+    "title": "Arte Academy",
+    "url": "http://arteacademy.com/",
+    "address": "B-1-2, IOI Boulevard, Jalan Kenari 5, Bandar Puchong Jaya, 47170 Puchong, Selangor",
+    "email": ["info@arteacademy.com"],
+    "telephone": ["03-5879 8269"],
+    "category": "training academy"
+  },
+  {
+    "title": "UNDO School of 3D Animation",
+    "url": "http://undo.com.my/",
+    "address": "Sunway Giza Mall, B-3-2nd Floor, No.2, Jalan PJU 5/14, Kota Damansara, 47810 Petaling Jaya, Selangor",
+    "email": ["info@undo.com.my"],
+    "telephone": ["03-61515162"],
+    "category": "training academy"
+  },
+  {
+    "title": "KLArtCenter",
+    "url": "klartcenter.com",
+    "email": ["info@klartcenter.com"],
+    "category": "training academy"
+  },
+  {
+    "title": "Adcom",
+    "url": "http://www.adcom2u.com",
+    "address": "46-AG, Persiaran MPAJ, Jalan Pandan Utama, Pandan Indah, 55100 Kuala Lumpur",
+    "telephone": ["03-42883070"],
+    "category": "training academy"
+  },
+  {
     "title": "KDU University College",
     "urlname": "Bachelor of Game Development (Hons)",
     "url": "http://www.kdu.edu.my/school-of-computing-creative-media/31-bachelor-of-game-development-hons",
