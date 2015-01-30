@@ -1,0 +1,118 @@
+[
+  {
+    "title": "KDU University College",
+    "urlname": "Bachelor of Game Development (Hons)",
+    "url": "http://www.kdu.edu.my/school-of-computing-creative-media/31-bachelor-of-game-development-hons",
+    "address": "School of Computing and Creative Media, KDU UC, Glenmarie Campus, Jalan Kontraktor U1/14, Seksyen U1, 40150 Shah Alam, Selangor",
+    "email": ["citan@kdu.edu.my"],
+    "category": "isil"
+  },
+  {
+    "name": "Universiti Tunku Abdul Rahman (UTAR)",
+    "urlname": "Bachelor of Arts (Hons) Game Design,  Bachelor of Science (Hons) Game Development",
+    "url": "http://www.utar.edu.my/fci/index.jsp?fcatid=108",
+    "address": "Faculty of Creative Industries, UTAR, No.9, Jalan Bersatu 13/4,46200, Petaling Jaya, Selangor",
+    "email": ["thkeong@utar.edu.my"],
+    "category": "isil"
+  },
+  {
+    "name": "Multimedia University (MMU)",
+    "urlname": "Bachelor of Computing Science (Hons) (Game Development specialization)",
+    "url": "http://fci.mmu.edu.my/undergrad/udgrad_cs.php",
+    "address": "Faculty of Computing and Informatics, MMU, Persiaran Multimedia, 63100 Cyberjaya, Selangor",
+    "email": ["ypwong@mmu.edu.my"],
+    "category": "isil"
+  },
+  {
+    "name": "Universiti Teknikal Malaysia Melaka (UTeM)",
+    "urlname": "Bachelor of Information Technology (Games Technology) With Honours",
+    "url": "http://ftmk.utem.edu.my/v3/index.php/2014-03-26-06-29-22/2014-03-27-01-48-34/item/44-bachelor-of-computer-science-computer-security",
+    "address": "Faculty of Information and Computing Technology, UTeM, Hang Tuah Jaya, 76100 Durian Tunggal, Melaka",
+    "email": [
+      "syarrifanor@utem.edu.my",
+      "naim@utem.edu.my"
+    ],
+    "category": "isil"
+  },
+  {
+    "name": "Universiti Pendidikan Sultan Idris",
+    "urlname": "Diploma in Game Design and Development",
+    "url": "http://www.upsi.edu.my/en/about-upsi/faculty/455-fakulti-seni-komputeran-dan-industeri-kreatif",
+    "address": "Faculty of Art, Computing and Creative Industry, UPSI, 35900 Tanjong Malim, Perak",
+    "email": [
+      "maizatul@fskik.upsi.edu.my",
+      "whtan@fskik.upsi.edu.my"
+    ],
+    "category": "isil"
+  },
+  {
+    "name": "Tunku Abdul Rahman University College (TAR UC)",
+    "urlname": "Bachelor of Computer Science (Hons) in Interactive Software Technology, Diploma in Interactive Software Technology",
+    "url": "http://www.tarc.edu.my/fasc/programmes/sasBist.htm",
+    "address": "Faculty of Applied Science and Computing, TAR UC, Jalan Genting Klang, Setapak, 53300 Kuala Lumpur",
+    "email": ["tankh@acd.tarc.edu.my"],
+    "category": "isil"
+  },
+  {
+    "name": "Politeknik Tuanku Syed Sirajuddin (PTSS)",
+    "urlname": "Diploma in Information Technology (Game Technology)",
+    "url": "http://www.ptss.edu.my/upli/index.php?option=com_content&view=article&id=110&Itemid=106",
+    "address": "Department of Information Technology and Communications, PTSS, Pauh Putra, Arau, 02600 Perlis",
+    "email": ["fadzlina.asri@moe.gov.my"],
+    "category": "isil"
+  },
+  {
+    "name": "Politeknik METRO (Tasik Gelugor)",
+    "urlname": "Diploma in Information Technology (Game Technology)",
+    "url": "http://www.pmtg.edu.my/index.php/menu-jabatan/menu-akademik/dip-games",
+    "address": "Department of Information Technology and Communications, D/A Politeknik Seberang Perai, Jalan Permatang Pauh, 13500 Permatang Pauh, Penang",
+    "email": ["fadzlina.asri@moe.gov.my"],
+    "category": "isil"
+  },
+  {
+    "name": "UiTM (Puncak Alam Campus)",
+    "urlname": "Master of Art and Design (Animation and Digital Game Design)",
+    "url": "http://ad.uitm.edu.my/v2/programmes/postgraduate.html",
+    "address": "Faculty of Art and Design, UiTM Puncak Alam Campus, 42300 Bandar Puncak Alam, Selangor",
+    "email": ["firedauz01@gmail.com"],
+    "category": "isil"
+  },
+  {
+    "name": "Kolej Komuniti Selayang",
+    "urlname": "Diploma in Games Art",
+    "url": "http://www.kkselayang.edu.my/index.php/en/kursus-ditawarkan/2014-03-05-03-50-46/diploma-games-art",
+    "address": "Kolej Komuniti Selayang, Bandar Baru Selayang, 68100 Selangor",
+    "email": ["y.ummuhani@gmail.com"],
+    "category": "isil"
+  },
+  {
+    "name": "Asia Pacific University of Technology and Innovation (APU)",
+    "urlname": "Bachelor of Science (Hons) in Computer Games Development",
+    "url": "http://www.apu.edu.my/our-courses/undergraduate-studies/school-computing-technology/bsc-hons-computer-games-development-0",
+    "address": "School of Computing and Technology, APU, Technology Park Malaysia, Bukit Jalil, 57000 Kuala Lumpur",
+    "email": ["dr.vinesh@apu.edu.my"],
+    "category": "isil"
+  },
+  {
+    "name": "Limkokwing University of Creative Technology",
+    "urlname": "Lim Kok Wing",
+    "url": "http://www.limkokwing.net/malaysia/academic/courses_details/bachelor_of_science_hons_in_games_technology",
+    "address": "Faculty of Multimedia Creativity, Inovasi 1-1, Jalan Teknokrat 1/1, 63000 Cyberjaya, Selangor",
+    "category": "isil"
+  },
+  {
+    "name": "HELP University",
+    "urlname": "Bachelor of Computer Science (Hons) in Games and Interactive Media",
+    "url": "http://www.help.edu.my/index.php?option=com_k2&view=item&id=44:bsc-hons-games--interactive-media&Itemid=256",
+    "category": "isil"
+  },
+  {
+    "name": "Management and Science University (MSU)",
+    "urlname": "Diploma in Games Design and Animation,  Bachelor in Games Design and Animation (Hons)",
+    "url": "http://www.msu.edu.my/v9/faculty-information-sciences-engineering/bachelor-games-design-animation.php",
+    "address": "Faculty of Information Science and Engineering, MSU, University Drive, Off Persiaran Olahraga, Section 13, 40100 Shah Alam, Selangor",
+    "email": ["enquiry@msu.edu.my"],
+    "category": "isil"
+  }
+]
+
