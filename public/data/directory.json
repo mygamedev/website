@@ -1,4 +1,113 @@
 [
+
+
+  {
+    "title": "Codemasters Studios Sdn Bhd",
+    "urlname": "",
+    "url": "codemasters.com",
+    "address": "Suite 1B-13A, Block 1B, Plaza Sentral, Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2279 9555"],
+    "email": [""],
+    "category": "Art Outsourcing Studios"
+  },
+  {
+    "title": "Fly Studio Sdn Bhd",
+    "urlname": "",
+    "url": "flystudio.my",
+    "address": "301A, 2nd Floor, Wisma PNS (Blok C) Kompleks Kelana Centre Point, Jalan SS7/19, Kelana Jaya, 47301 Petaling Jaya, Selangor, Malaysia",
+    "telephone": [
+      "+603 7803 1280",
+      "+603 7886 0745"
+    ],
+    "email": ["info@flystudio.my"],
+    "category": "Art Outsourcing Studios"
+  },
+  {
+    "title": "Frogtale Studio",
+    "urlname": "",
+    "url": "frogtalestudio.com",
+    "address": "19-02A, Level 19, The Pinnacle, Persiaran Lagoon, Bandar Sunway, 46150 Petaling Jaya, Selangor, Malaysia",
+    "telephone": [""],
+    "email": ["my@frogtalestudio.com"],
+    "category": "Art Outsourcing Studios"
+  },
+  {
+    "title": "Glow Production Sdn Bhd",
+    "urlname": "",
+    "url": "glow-production.com",
+    "address": "B-8-3A, Oasis Square, Ara Damansara Pju 1A, 47301 Petaling Jaya, Selangor, Malaysia",
+    "telephone": [
+      "+603 7734 3222",
+      "+6016 2967 721"
+    ],
+    "email": ["ryanwong.glow@gmail.com"],
+    "category": "Art Outsourcing Studios"
+  },
+  {
+    "title": "Illusionist Animation Studio",
+    "urlname": "",
+    "url": "illusionist.com.my",
+    "address": "B-8-3A, Oasis Square, Ara Damansara Pju 1A, 47301 Petaling Jaya, Selangor, Malaysia",
+    "telephone": [
+      "+603 6151 3302",
+      "+6017 2306 381",
+      "++6012 3379 160"
+    ],
+    "email": ["info@illusionist.com.my"],
+    "category": "Art Outsoucing Studios"
+  },
+  {
+    "title": "Lemon Sky Animation Sdn Bhd",
+    "urlname": "",
+    "url": "lemonsky.tv",
+    "address": "Unit 10-2, Level 10, Symphony House, Pusat Dagangan Dana 1, Jalan PJU 1A/46, 47301 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+603 7842 6155"],
+    "email": ["inquiries@lemonsky.tv"],
+    "category": "Art Outsoucing Studios"
+  },
+  {
+    "title": "Moondo Sdn Bhd",
+    "urlname": "",
+    "url": "moondo.my",
+    "address": "15-3, Block A, Jaya One, 72A, Jalan Universiti, Selangor, Malaysia",
+    "telephone": ["+603 7932 2218"],
+    "email": ["mondo.inquiry@gmail.com"],
+    "category": "Art Outsoucing Studios"
+  },
+  {
+    "title": "Passion Republic",
+    "urlname": "",
+    "url": "passionrepublic.com",
+    "address": "Lot A-06-38, 6th Floor, IOI Boulevard, Jalan Kenari 5, Bandar Puchong Jaya, 47170 Puchong, Selangor, Malaysia",
+    "telephone": [
+      "+603 8082 3344",
+      "+603 8082 4499"
+    ],
+    "email": ["sern@passionrepublic.com"],
+    "category": "Art Outsoucing Studios"
+  },
+  {
+    "title": "PolyAssets United (M) Sdn Bhd",
+    "urlname": "",
+    "url": "polyassetsunited.com",
+    "address": "51-3A, Block D, Jaya One, No 72A, Jln Universiti, 46200 Petaling Jaya, Selangor, Malaysia",
+    "telephone": ["+603 7960 7000"],
+    "email": ["info@polyassetsunited.com"],
+    "category": "Art Outsoucing Studios"
+  },
+  {
+    "title": "Streamline Studios Malaysia Sdn Bhd",
+    "urlname": "",
+    "url": "streamline-studios.com",
+    "address": "Level 6, Block 3A, Avenue 3, Horizon, Bangsar South, No. 8, Jalan Kerinchi, 59200 Kuala Lumpur, Malaysia",
+    "telephone": ["+603 2202 2878"],
+    "email": [""],
+    "category": "Art Outsoucing Studios"
+  },
+
+
+
+
   {
     "title": "Claz'room Academy",
     "url": "http://clazroom.com/",
@@ -36,6 +145,11 @@
     "telephone": ["03-42883070"],
     "category": "training academy"
   },
+
+
+
+
+
   {
     "title": "KDU University College",
     "urlname": "Bachelor of Game Development (Hons)",
