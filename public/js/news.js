@@ -1,4 +1,4 @@
-(function ($) {
+(function ($, lodash, moment) {
 
   $(document).ready(function () {
 
@@ -19,6 +19,15 @@
 
     $('.small-video').fitVids();
 
+    $.getJSON('/data/news.json')
+      .done(function (news) {
+
+        news = lodash
+                 .sortBy(news, function (e) {
+                   return -moment(e.date).valueOf();
+                 });
+      });
+
   });
 
-}($));
+}($, _, moment));

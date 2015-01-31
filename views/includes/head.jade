@@ -17,7 +17,10 @@ head(lang='en')
   link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap-theme.min.css')
   link(rel='stylesheet', href='/css/mgd.css')
   if page == 'directory'
-      link(rel='stylesheet', href='/css/directory.css')
+    link(rel='stylesheet', href='/css/directory.css')
+
+  if page == 'news'
+    link(rel='stylesheet', href='/css/news.css')
 
   if locals.NODE_ENV === 'development'
     block js
