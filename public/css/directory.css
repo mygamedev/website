@@ -75,8 +75,82 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
 
 #search-header {
     color: #F9F8EC;
-    font-family: Avenir;
+    font-family: 'Avenir', sans-serif;
     font-weight: 800;
     font-size: 18px;
     margin-bottom: 0;
 }
+
+
+/**
+ * Listing
+ **/
+
+
+.listing {
+    margin-top: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.listing .title {
+    background-color: #873BB6;
+}
+
+.listing .title > p {
+    color: #F9F8EC;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.listing .desc {
+    background-color: #F9F8EC;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
+
+.listing .desc .url > a  {
+    font-family: 'Avenir', sans-serif;
+    font-size: 17px;
+    font-wieght: 600px;
+    color: #009CA6;
+}
+
+.listing .desc .address .addressentry > span  {
+    font-family: 'Avenir', sans-serif;
+    font-size: 13px;
+    color: #005E61;
+}
+
+.listing .desc .telephone .col-xs-1,
+.listing .desc .telephone .col-xs-8,
+.listing .desc .email     .col-xs-1,
+.listing .desc .email     .col-xs-8 {  padding-left: 0px; }
+
+.listing .desc .telephone .icon,
+.listing .desc .email .icon         {
+    font-family: 'Avenir', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #005E61;
+}
+
+.listing .desc .telephoneentry > span {
+    font-family: 'Avenir', sans-serif;
+    font-size: 13px;
+    color: #005E61;
+}
+
+.listing .desc .emailentry > span {
+    font-family: 'Avenir', sans-serif;
+    font-size: 13px;
+    color: #005E61;
+}
+
+

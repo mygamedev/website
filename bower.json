@@ -11,6 +11,7 @@
     "jquery": "~2.1.1",
     "fitvids": "~1.1.0",
     "console.image": "*",
-    "isotope": "~2.1.0"
+    "isotope": "~2.1.0",
+    "lodash": "~3.0.1"
   }
 }
