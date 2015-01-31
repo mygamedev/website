@@ -17,9 +17,15 @@
         layoutMode: 'masonry'
       });
 
-      $('.multibusinesscompanies-button')
+
+      $('#category-header')
         .on('click', function () {
           $list.isotope({ filter: '.multibusinesscompanies' });
+        });
+
+      $('.multibusinesscompanies-button')
+        .on('click', function () {
+          $list.isotope({ filter: '*' });
         });
 
       $('.incubation-button')

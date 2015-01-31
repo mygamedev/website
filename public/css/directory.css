@@ -42,6 +42,7 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
     width: 100%;
     background-color: #873BB6;
     height: 45px;
+    cursor: pointer;
 }
 
 #category-header span {
