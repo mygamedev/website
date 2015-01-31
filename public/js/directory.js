@@ -1,9 +1,6 @@
 (function ($, lodash) {
   'use strict';
 
-
-
-
   $.getJSON('/data/directory.json')
     .done(function (list) {
 
@@ -15,10 +12,56 @@
           $list.append(entry);
         });
 
-    })
-    .fail(function () {
-    })
-    .always(function () {
+      $list.isotope({
+        itemSelector: '.item',
+        layoutMode: 'masonry'
+      });
+
+      $('.multibusinesscompanies-button')
+        .on('click', function () {
+          $list.isotope({ filter: '.multibusinesscompanies' });
+        });
+
+      $('.incubation-button')
+        .on('click', function () {
+          $list.isotope({ filter: '.incubation' });
+        });
+
+      $('.gamepublishers-button')
+        .on('click', function () {
+          $list.isotope({ filter: '.gamepublishers' });
+        });
+
+      $('.gamedevelopmentstudios-button')
+        .on('click', function () {
+          $list.isotope({ filter: '.gamedevelopmentstudios' });
+        });
+
+      $('.artoutsourcingstudios-button')
+        .on('click', function () {
+          $list.isotope({ filter: '.artoutsourcingstudios' });
+          $('.artoutsourcingstudios').show();
+        });
+
+      $('.schools-button')
+        .on('click', function () {
+          $list.isotope({ filter: '.schools' });
+        });
+
+      var $search = $('#search');
+      $search
+        .change(function () {
+
+          var search = $search.val().toLowerCase();
+
+          $list.isotope({
+            filter: function () {
+              var title = $(this).find('.title').text().toLowerCase();
+              return title.indexOf(search) > -1;
+            }
+          });
+        })
+
     });
 
 
@@ -93,7 +136,10 @@
     }
 
     return function (datum) {
-      return '<div class="col-xs-12 col-sm-4 col-md-3 listing">' +
+
+      var category = replaceAll(datum.category, ' ',  '').toLowerCase();
+
+      return '<div class="listing item ' + category + '" style="width:220px;" >' +
                '<div class="row title">' +
                  '<p>' + datum.title + '</p>' +
                '</div>' +

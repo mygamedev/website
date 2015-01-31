@@ -7,7 +7,7 @@
   .row.text-center(style='max-width: 900px;')
     .col-md-6
       .input-group
-        input.form-control(type='text', placeholder='Search for...')
+        input#search.form-control(type='text', placeholder='Search for...')
         span.input-group-btn
           button.btn(type='button')
             span.glyphicon.glyphicon-search
@@ -29,7 +29,7 @@
 
     .col-md-6.text-center
       .row.categories
-        .col-md-4
+        .col-md-4.gamedevelopmentstudios-button
           .row
             img(style='height: 92px;', src='/img/directory/directory_category_icon_gamedevstudio.svg')
           .row.a
@@ -37,7 +37,7 @@
             span GAME DEV
             br
             span STUDIO
-        .col-md-4
+        .col-md-4.multibusinesscompanies-button
           .row
             img(style='height: 92px;', src='/img/directory/directory_category_icon_multibusiness.svg')
           .row.b
@@ -45,7 +45,7 @@
             span MULTI-BUSINESS
             br
             span COMPANIES
-        .col-md-4
+        .col-md-4.artoutsourcingstudios-button
           .row
             img(style='height: 92px;', src='/img/directory/directory_category_icon_artoutsourcing.svg')
           .row.c
@@ -58,7 +58,7 @@
         .spacer-20
 
       .row.categories
-        .col-md-4
+        .col-md-4.gamepublishers-button
           .row
             img(style='height: 92px;', src='/img/directory/directory_category_icon_gamepublishers.svg')
           .row.a
@@ -66,7 +66,7 @@
             span GAME
             br
             span PUBLISHERS
-        .col-md-4
+        .col-md-4.schools-button
           .row
             img(style='height: 92px;', src='/img/directory/directory_category_icon_institute.svg')
           .row.b
@@ -74,7 +74,7 @@
             span INSTITUTIONS &
             br
             span ACADEMIES
-        .col-md-4
+        .col-md-4.incubation-button
           .row
             img(style='height: 92px;', src='/img/directory/directory_category_icon_incubator.svg')
           .row.c
@@ -87,7 +87,7 @@
 
   .row(style='max-width: 500px;').visible-xs.visible-sm.categories.text-center
     .row(style='margin-left: 15px; margin-right: 15px;')
-      .col-xs-6
+      .col-xs-6.gamedevelopmentstudios-button
         .row
           img(style='height: 92px;', src='/img/directory/directory_category_icon_gamedevstudio.svg')
         .row.a
@@ -95,7 +95,7 @@
           span GAME DEV
           br
           span STUDIO
-      .col-xs-6
+      .col-xs-6.gamepublishers-button
         .row
           img(style='height: 92px;', src='/img/directory/directory_category_icon_gamepublishers.svg')
         .row.a
@@ -106,7 +106,7 @@
     .row
       .spacer-20
     .row(style='margin-left: 15px; margin-right: 15px;')
-      .col-xs-6
+      .col-xs-6.multibusinesscompanies-button
         .row
           img(style='height: 92px;', src='/img/directory/directory_category_icon_multibusiness.svg')
         .row.b
@@ -114,7 +114,7 @@
           span MULTI-BUSINESS
           br
           span COMPANIES
-      .col-xs-6
+      .col-xs-6.schools-button
         .row
           img(style='height: 92px;', src='/img/directory/directory_category_icon_institute.svg')
         .row.b
@@ -125,7 +125,7 @@
     .row
       .spacer-20
     .row(style='margin-left: 15px; margin-right: 15px;')
-      .col-xs-6
+      .col-xs-6.artoutsourcingstudios-button
         .row
           img(style='height: 92px;', src='/img/directory/directory_category_icon_artoutsourcing.svg')
         .row.c
@@ -133,7 +133,7 @@
           span ART OUTSOURCING
           br
           span STUDIO
-      .col-xs-6
+      .col-xs-6.incubation-button
         .row
           img(style='height: 92px;', src='/img/directory/directory_category_icon_incubator.svg')
         .row.c

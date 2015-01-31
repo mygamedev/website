@@ -113,6 +113,7 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .listing .desc .url > a  {

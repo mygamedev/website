@@ -664,7 +664,7 @@
     "address": "F-02-02, Neo Damansara, Jalan PJU 8/1, Damansara Perdana, 47820, Petaling Jaya, Selangor",
     "email": ["info@clazroom.com"],
     "telephone": ["03-7729 9668"],
-    "category": "training academy"
+    "category": "schools"
   },
   {
     "title": "Arte Academy",
@@ -672,7 +672,7 @@
     "address": "B-1-2, IOI Boulevard, Jalan Kenari 5, Bandar Puchong Jaya, 47170 Puchong, Selangor",
     "email": ["info@arteacademy.com"],
     "telephone": ["03-5879 8269"],
-    "category": "training academy"
+    "category": "schools"
   },
   {
     "title": "UNDO School of 3D Animation",
@@ -680,20 +680,20 @@
     "address": "Sunway Giza Mall, B-3-2nd Floor, No.2, Jalan PJU 5/14, Kota Damansara, 47810 Petaling Jaya, Selangor",
     "email": ["info@undo.com.my"],
     "telephone": ["03-61515162"],
-    "category": "training academy"
+    "category": "schools"
   },
   {
     "title": "KLArtCenter",
     "url": "klartcenter.com",
     "email": ["info@klartcenter.com"],
-    "category": "training academy"
+    "category": "schools"
   },
   {
     "title": "Adcom",
     "url": "www.adcom2u.com",
     "address": "46-AG, Persiaran MPAJ, Jalan Pandan Utama, Pandan Indah, 55100 Kuala Lumpur",
     "telephone": ["03-42883070"],
-    "category": "training academy"
+    "category": "schools"
   },
   {
     "title": "KDU University College",
@@ -701,7 +701,7 @@
     "url": "www.kdu.edu.my/school-of-computing-creative-media/31-bachelor-of-game-development-hons",
     "address": "School of Computing and Creative Media, KDU UC, Glenmarie Campus, Jalan Kontraktor U1/14, Seksyen U1, 40150 Shah Alam, Selangor",
     "email": ["citan@kdu.edu.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Universiti Tunku Abdul Rahman (UTAR)",
@@ -709,7 +709,7 @@
     "url": "www.utar.edu.my/fci/index.jsp?fcatid=108",
     "address": "Faculty of Creative Industries, UTAR, No.9, Jalan Bersatu 13/4,46200, Petaling Jaya, Selangor",
     "email": ["thkeong@utar.edu.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Multimedia University (MMU)",
@@ -717,7 +717,7 @@
     "url": "fci.mmu.edu.my/undergrad/udgrad_cs.php",
     "address": "Faculty of Computing and Informatics, MMU, Persiaran Multimedia, 63100 Cyberjaya, Selangor",
     "email": ["ypwong@mmu.edu.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Universiti Teknikal Malaysia Melaka (UTeM)",
@@ -728,7 +728,7 @@
       "syarrifanor@utem.edu.my",
       "naim@utem.edu.my"
     ],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Universiti Pendidikan Sultan Idris",
@@ -739,7 +739,7 @@
       "maizatul@fskik.upsi.edu.my",
       "whtan@fskik.upsi.edu.my"
     ],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Tunku Abdul Rahman University College (TAR UC)",
@@ -747,7 +747,7 @@
     "url": "www.tarc.edu.my/fasc/programmes/sasBist.htm",
     "address": "Faculty of Applied Science and Computing, TAR UC, Jalan Genting Klang, Setapak, 53300 Kuala Lumpur",
     "email": ["tankh@acd.tarc.edu.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Politeknik Tuanku Syed Sirajuddin (PTSS)",
@@ -755,7 +755,7 @@
     "url": "www.ptss.edu.my/upli/index.php?option=com_content&view=article&id=110&Itemid=106",
     "address": "Department of Information Technology and Communications, PTSS, Pauh Putra, Arau, 02600 Perlis",
     "email": ["fadzlina.asri@moe.gov.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Politeknik METRO (Tasik Gelugor)",
@@ -763,7 +763,7 @@
     "url": "www.pmtg.edu.my/index.php/menu-jabatan/menu-akademik/dip-games",
     "address": "Department of Information Technology and Communications, D/A Politeknik Seberang Perai, Jalan Permatang Pauh, 13500 Permatang Pauh, Penang",
     "email": ["fadzlina.asri@moe.gov.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "UiTM (Puncak Alam Campus)",
@@ -771,7 +771,7 @@
     "url": "ad.uitm.edu.my/v2/programmes/postgraduate.html",
     "address": "Faculty of Art and Design, UiTM Puncak Alam Campus, 42300 Bandar Puncak Alam, Selangor",
     "email": ["firedauz01@gmail.com"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Kolej Komuniti Selayang",
@@ -779,7 +779,7 @@
     "url": "www.kkselayang.edu.my/index.php/en/kursus-ditawarkan/2014-03-05-03-50-46/diploma-games-art",
     "address": "Kolej Komuniti Selayang, Bandar Baru Selayang, 68100 Selangor",
     "email": ["y.ummuhani@gmail.com"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Asia Pacific University of Technology and Innovation (APU)",
@@ -787,20 +787,20 @@
     "url": "www.apu.edu.my/our-courses/undergraduate-studies/school-computing-technology/bsc-hons-computer-games-development-0",
     "address": "School of Computing and Technology, APU, Technology Park Malaysia, Bukit Jalil, 57000 Kuala Lumpur",
     "email": ["dr.vinesh@apu.edu.my"],
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Limkokwing University of Creative Technology",
     "urlname": "Lim Kok Wing",
     "url": "www.limkokwing.net/malaysia/academic/courses_details/bachelor_of_science_hons_in_games_technology",
     "address": "Faculty of Multimedia Creativity, Inovasi 1-1, Jalan Teknokrat 1/1, 63000 Cyberjaya, Selangor",
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "HELP University",
     "urlname": "Bachelor of Computer Science (Hons) in Games and Interactive Media",
     "url": "www.help.edu.my/index.php?option=com_k2&view=item&id=44:bsc-hons-games--interactive-media&Itemid=256",
-    "category": "isil"
+    "category": "schools"
   },
   {
     "title": "Management and Science University (MSU)",
@@ -808,7 +808,7 @@
     "url": "www.msu.edu.my/v9/faculty-information-sciences-engineering/bachelor-games-design-animation.php",
     "address": "Faculty of Information Science and Engineering, MSU, University Drive, Off Persiaran Olahraga, Section 13, 40100 Shah Alam, Selangor",
     "email": ["enquiry@msu.edu.my"],
-    "category": "isil"
+    "category": "schools"
   }
 ]
 
