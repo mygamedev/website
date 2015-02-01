@@ -30,6 +30,17 @@
     box-shadow: -6px -1px 0px -1px #52516F;
 }
 
+.earlier {
+    background: #DC5473;
+    box-shadow: 3px 4px #963451;
+}
+
+.earlier:after{
+    border-color: transparent transparent #DC5473 #DC5473;
+    box-shadow: -6px -1px 0px -1px #963451;
+}
+
+
 /**
  * Videos
  **/
