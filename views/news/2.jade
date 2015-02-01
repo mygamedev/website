@@ -24,7 +24,9 @@
       .row
         .spacer-40
 
+      // Main News Board Section
       .row(style='margin-left: 28px; margin-right: 28px;')
+
         .col-sm-7(style='padding-left: 0px;')
 
           // TITLE
@@ -44,12 +46,10 @@
             a(style='text-decoration: none;', href='http://www.edgy.my/game-malaysia')
               div.pull-right(style='background-color: #F1826B; color: white; padding: 5px; padding-left: 15px; padding-right: 15px; font-family: Oswald;') READ
 
-          .row.text-center.hidden-xs
-            img(style='height: 167px; margin-top: 10%', src='/img/news/article_dude.svg')
-
+          //.row.text-center.hidden-xs
+          //  img(style='height: 167px; margin-top: 10%', src='/img/news/article_dude.svg')
           .row.visible-xs
             .spacer-20
-
 
         .col-sm-5(style='padding-right: 0px;')
 
@@ -59,51 +59,36 @@
           .row(style='max-width: 305px; background-color: #78AA42')
             h4(style='padding-left: 20px; font-family: \'Avenir\', sans-serif; font-weight: 800; font-size: 16px; color: #28622F; padding-top: 5px; padding-bottom: 5px;') MORE NEWS & ARTICLES
 
-          // TODO: fetch data from db.
-          .row(style='max-width: 305px; background-color: #F0E2C9; padding-top: 10px; padding-bottom: 10px;')
-            .col-xs-7(style='color: #724F3D; font-family: \'Avenir\', sans-serif; margin-left: 15px;')
-              div(style='font-size: 14px; font-weight: 800;') GAME ON FOR GAMERS
-              div(style='font-size: 12px;')  8 Jun 2014
-            .col-xs-4.text-center
-              a(style='text-decoration: none;', href='http://www.thestar.com.my/News/Education/2014/06/08/Game-on-for-gamers/')
-                div(style='background-color: #F1826B; color: white; padding: 5px; font-family: Oswald; margin-top: 30%;') READ
-
-          .row(style='max-width: 305px; background-color: #E7D6B6; padding-top: 10px; padding-bottom: 10px;')
-            .col-xs-7(style='color: #724F3D; font-family: \'Avenir\', sans-serif; margin-left: 15px;')
-              div(style='font-size: 13px; font-weight: 800;') ELECTRONIC GAMES DEVELOPMENT INDUSTRY TO GROW...
-              div(style='font-size: 12px;')  20 NOV 2012
-            .col-xs-4.text-center
-              a(style='text-decoration: none;', href='http://themalaysianreserve.com/main/news/corporate-malaysia/2573-electronic-games-development-industry-to-grow-under-gtp')
-                div(style='background-color: #F1826B; color: white; padding: 5px; font-family: Oswald; margin-top: 30%;') READ
-
-          .row(style='max-width: 305px; background-color: #F0E2C9; padding-top: 10px; padding-bottom: 10px;')
-            .col-xs-7(style='color: #724F3D; font-family: \'Avenir\', sans-serif; margin-left: 15px;')
-              div(style='font-size: 14px; font-weight: 800;') KDU REVS VIDEO GAME DEVELOPMENT FOR MYGAMEDEV
-              div(style='font-size: 12px;')  8 Jun 2014
-            .col-xs-4.text-center
-              a(style='text-decoration: none;', href='http://www.scmp.com/article/1046145/kdu-revs-video-game-development-mygamedev')
-                div(style='background-color: #F1826B; color: white; padding: 5px; font-family: Oswald; margin-top: 30%;') READ
-
-          .row(style='max-width: 305px; background-color: #E7D6B6; padding-top: 10px; padding-bottom: 10px;')
-            .col-xs-7(style='color: #724F3D; font-family: \'Avenir\', sans-serif; margin-left: 15px;')
-              div(style='font-size: 13px; font-weight: 800;') GAME DEVELOPMENT CLUSTER
-              div(style='font-size: 12px;')  20 NOV 2012
-            .col-xs-4.text-center
-              a(style='text-decoration: none;', href='http://etp.pemandu.gov.my/28_May_2012-@-Game_Development_Cluster.aspx')
-                div(style='background-color: #F1826B; color: white; padding: 5px; font-family: Oswald; margin-top: 30%;') READ
-
-          .row(style='max-width: 305px; background-color: #F0E2C9; padding-top: 10px; padding-bottom: 10px;')
-            .col-xs-7(style='color: #724F3D; font-family: \'Avenir\', sans-serif; margin-left: 15px;')
-              div(style='font-size: 14px; font-weight: 800;') KDU UNIVERSITY COLLEGE KICKS OFF MYGAMEDEV2020
-              div(style='font-size: 12px;')  8 Jun 2014
-            .col-xs-4.text-center
-              a(style='text-decoration: none;', href='https://my.news.yahoo.com/blogs/pc-com/kdu-university-college-kicks-off-mygamedev2020-075514193.html')
-                div(style='background-color: #F1826B; color: white; padding: 5px; font-family: Oswald; margin-top: 30%;') READ
-
+          .row#boarditems
+          .row.visible-xs#mmn(style="max-width: 305px; background-color: #E7D6B6; padding-top: 15px; padding-bottom: 15px;")
+            #mmnbutton(role="tab", style="padding-bottom: 15px;")
+              a(data-toggle="collapse", data-parent="#mmn", href="#mobileboarditems" aria-expanded="false" aria-controls="collapseTwo" style="text-decoration: none;")
+                div.text-center(style="width: 50%; background-color: #F1826B; color: white; padding: 5px; font-family: 'Oswald', sans-serif;margin: 0 auto;") MORE
+            #mobileboarditems.collapse(role="tabpanel", aria-labelledby="mmnbutton")
 
           // News Footer
           .row(style='max-width: 346px;')
             img.img-responsive(src='/img/news/canvas_frame_bottom.svg')
+
+      // Archive Section
+      .row
+        .spacer-40
+
+      .row.hidden-xs(style='margin-left: 28px; margin-right: 28px;')
+        .col-sm-3
+          .row
+            .spacer-20
+          .row
+            .toggle_arrow OLDER
+            .spacer-10
+          .row
+            .toggle_arrow 2013
+            .spacer-10
+          .row
+            .spacer-20
+        .col-sm-8.col-sm-offset-1
+          div(style="width:100%; height: 300;background-image: url(\"/img/news/newsarchivebook.svg\");background-repeat:no-repeat; background-position: center center;")
+
 
       .row
         .spacer-20
