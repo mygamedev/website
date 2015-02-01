@@ -52,7 +52,7 @@
 
       var elem = '<div id="' + headId + '" name="gamedevelopment" class="titlebar" style="background-color: ' + colorPair.head + '; margin-left: -15px; margin-right: -15px;" role="tab">'
                  + '<h4 class="text-center" style="margin-top:0px; margin-bottom:0px; padding-bottom: 15px; padding-top: 40px;" data-toggle="collapse" data-parent="#accordion" href="#' + bodyId + '" aria-expanded="false" aria-controls="collapseTwo">'
-                   + '<a style="color: white; font-size: 18px; font-family: Avenir; text-decoration: none;">' + faqTitle + '</a>'
+                   + '<a style="color: white; font-size: 18px; font-family: \'Avenir\', sans-serif; text-decoration: none;">' + faqTitle + '</a>'
                    + '<br/>'
                    + '<img style="height: 10px; margin-top: 16px;" src="/img/faq/faq_down_arrow.svg" />'
                  + '</h4>'
@@ -61,7 +61,7 @@
                + '<div id="' + bodyId + '" class="collapse" style="background-color: ' + colorPair.body + '; margin-left: -15px; margin-right: -15px;" role="tabpanel", aria-labelledby="' + headId + '" >'
                  + '<div class="row" style="padding-top:40px; padding-bottom:40px;max-width: 900px; margin: 0 auto;">'
                    + '<div class="col-sm-4 text-center" style="padding-bottom: 20px;">' + getRandomAvatarIMG() + '</div>'
-                   + '<div class="col-sm-8" style="color: #223967; font-size: 16px; font-family: Avenir;">' + content + '</div>'
+                   + '<div class="col-sm-8" style="color: #223967; font-size: 16px; font-family: \'Avenir\', sans-serif;">' + content + '</div>'
                  + '</div>'
                + '</div>';
 
