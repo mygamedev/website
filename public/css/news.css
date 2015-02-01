@@ -1,4 +1,38 @@
+.toggle_arrow {
+    cursor: pointer;
+    width: 150px;
+    position: relative;
+    background: #6B739E;
+    color: #EFF8E7;
+    padding: 6px;
+    padding-left: 17px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    box-shadow: 3px 4px #52516F;
+}
 
+.toggle_arrow:after {
+    -webkit-backface-visibility: hidden;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    bottom: -28px;
+    left: 100%;
+    box-sizing: border-box;
+    border: 14px solid black;
+    border-color: transparent transparent #6B739E #6B739E;
+    transform-origin: 0 0;
+    transform: rotate(-135deg);
+    outline: 1px solid transparent;
+    box-shadow: -6px -1px 0px -1px #52516F;
+}
+
+/**
+ * Videos
+ **/
 .carousel-pager {
     float: right;
     padding-right: 20px;
