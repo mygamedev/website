@@ -30,17 +30,13 @@
 
       function createPage(videos) {
 
-        videos = lodash.map(videos, function (videoOptions) {
-                                      return createMini(videoOptions);
-                                    });
+        var content = lodash
+                        .chain(videos)
+                        .map(function (video) { return createMini(video); })
+                        .reduce( function (memo, video) { return memo + video; }, "")
+                        .value();
 
-        return '<div class="item">' +
-                 '<div class="row text-center">' +
-                    lodash.reduce(videos, function (memo, video) {
-                      return memo + video;
-                    }, "") +
-                 '</div>' +
-               '</div>'
+        return '<div class="item row text-center">' + content + '</div>';
       }
 
       function createMini(options) {
@@ -90,6 +86,7 @@
               videos.shift();
             }
           }
+
           $videocarousel.carousel({
             interval: 5000
           });
