@@ -14,8 +14,7 @@
     .row#videoframepad(style='position: absolute; left: 0; right: 0; top: 185px;')
       .div(style='padding-left: 10px; padding-right: 10px;')
         .div(style='border: 10px solid #FFE6B0; border-radius:20px; background-color: #FFE6B0; max-width: 860px; box-shadow: 0px 8px #754C24; margin: 0 auto;')
-          .div(style='border: 15px solid #333333; border-radius:10px; background-color: #333333')
-            iframe#videoframe(style='border-left: 7px solid #333333; border-right:7px solid #333333; border-top: none; border-bottom: none;', src='//player.vimeo.com/video/115845897', width='100%', height='510')
+          .div#stagevideo(style='border: 15px solid #333333; border-radius:10px; background-color: #333333')
     .row.hidden-xs.text-center(style='position: absolute; left: 0; right: 0; top: 0;')
       img(style='width:1000px;', src='/img/news/video-mast.svg')
 
@@ -37,40 +36,21 @@
     .row(style='position: relative; z-index: 3; max-width: 930px; box-shadow: 14px 8px #007579;')
       .row(style='background-color: #EE6361; max-width: 930px;')
         .text-center(style='color: #EFF8E7; font-family: Oswald; font-size: 27px; font-weight: bold; padding-top: 8px; padding-bottom: 8px;') PLAYLIST
-      .row(style='background-color: #FFFFFF; max-width: 930px;')
-        .row
-          .spacer-20
-          .spacer-10
-        .row.text-center
-          .col-sm-4
-            .row
-              iframe.small-video(style='border: none;' src='//player.vimeo.com/video/115845896', width='253', height='145')
-              .spacer-20
-            .row.text-left
-              a(style='padding-left: 12px; color: #EE6361; font-family: Avenir; font-size: 16px; font-weight: 800', href='https://vimeo.com/115845896') Interview - Gabrielle Kent
-            .row.text-left
-              p(style='padding-left: 12px; color: #00878C; font-family: Avenir; font-size: 13px;') 1 month ago
+      .row#playlist(style='background-color: #FFFFFF; max-width: 930px;')
+        .row(style='background-color: #FFFFFF; max-width: 930px;')
+          .row
+            .spacer-20
+            .spacer-10
+          .carousel.slide
+            .carousel-inner#video-carousel(style="height: 235px;")
+          .row.carousel-pager
+            ul
+              li#video-prev-button.arrow-left
+              li#video-one-button.number 1
+              li#video-two-button.number 2
+              li#video-three-button.number 3
+              li#video-next-button.arrow-right
 
-
-          .col-sm-4
-            .row
-              iframe.small-video(style='border: none;' src='//player.vimeo.com/video/115845853', width='253', height='145')
-              .spacer-20
-            .row.text-left
-              a(style='padding-left: 12px; color: #EE6361; font-family: Avenir; font-size: 16px; font-weight: 800', href='https://vimeo.com/115845853') Interview - Joh
-            .row.text-left
-              p(style='padding-left: 11px; color: #00878C; font-family: Avenir; font-size: 13px;') 1 month ago
-
-          .col-sm-4
-            .row
-              iframe.small-video(style='border: none;' src='//player.vimeo.com/video/115845852', width='253', height='145')
-              .spacer-20
-            .row.text-left
-              a(style='padding-left: 11px; color: #EE6361; font-family: Avenir; font-size: 16px; font-weight: 800', href='https://vimeo.com/115845852') Interview - Jennifer Clixby
-            .row.text-left
-              p(style='padding-left: 11px; color: #00878C; font-family: Avenir; font-size: 13px;') 1 month ago
-        .row
-          .spacer-40
 
   .row
     .spacer-40
