@@ -41,6 +41,29 @@
 }
 
 
+
+.news-left-page {
+    padding-left: 15px;
+}
+.news-title {
+    font-family: 'Avenir', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #724F3D;
+    cursor: pointer;
+}
+.news-arrow {
+    padding-left: 5px;
+    color: #F1826B;
+}
+.news-date {
+    font-family: \'Avenir\', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #724F3D;
+    margin-top: -8px;
+}
+
 /**
  * Videos
  **/

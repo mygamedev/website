@@ -1,59 +1,26 @@
 [
   {
-    "title": "GAME ON MALAYSIA",
+    "title": "Game On Malaysia",
     "date": "2014-09-08",
     "preview": "/img/news/article_gameonmalaysia.jpg",
     "url": "http://www.edgy.my/game-malaysia"
   },
   {
-    "title": "GAME ON FOR GAMERS",
+    "title": "EduNews – Familiarizing with the Game Development Industry",
+    "date": "2014-08-19",
+    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2014/08/EduNews-19-8-2014.png"
+  },
+  {
+    "title": "Game On For Gamers",
     "date": "2014-06-08",
     "url": "http://www.thestar.com.my/News/Education/2014/06/08/Game-on-for-gamers/"
   },
+
+
   {
-    "title": "Electronic games development industry to grow under GTP",
-    "date": "2012-11-20",
-    "url": "http://themalaysianreserve.com/main/news/corporate-malaysia/2573-electronic-games-development-industry-to-grow-under-gtp"
-  },
-  {
-    "title": "KDU revs video game development for MyGameDev",
-    "date": "2012-09-21",
-    "url": "http://www.scmp.com/article/1046145/kdu-revs-video-game-development-mygamedev"
-  },
-  {
-    "title": "GAME DEVELOPMENT CLUSTER",
-    "date": "2012-05-28",
-    "url": "http://etp.pemandu.gov.my/28_May_2012-@-Game_Development_Cluster.aspx"
-  },
-  {
-    "title": "KDU UNIVERSITY COLLEGE KICKS OFF MYGAMEDEV2020",
-    "date": "2012-04-24",
-    "url": "http://www.liveatpc.com/kdu-university-college-kicks-off-mygamedev2020/"
-  },
-  {
-    "title": "GAME ON FOR DIGITAL LITERACY",
-    "date": "2012-05-28",
-    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/28_May_TheSUN_GAMEONFORDIGITALLITERACY.jpg"
-  },
-  {
-    "title": "KDU LAUNCHES ETP PROJECT",
-    "date": "2012-05-29",
-    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/ETP.jpg"
-  },
-  {
-    "title": "Game Development Industry Set to Grow",
-    "date": "2012-09-24",
-    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/2012-09-24-TheSun.jpg"
-  },
-  {
-    "title": "Boosting the Creative Content Industry",
-    "date": "2013-01-15",
-    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2013/01/20130122-thesun.png"
-  },
-  {
-    "title": "GAMING TO A DEGREE",
-    "date": "2013-08-24",
-    "url": "http://www.bfm.my/gaming-to-a-degree.html"
+    "title": "MyGameDev2020 set to help the Industry Grow",
+    "date": "2013-10-12",
+    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2013/12/mygamedev2020.png"
   },
   {
     "title": "Bernama Biztalk’s Game On Segment",
@@ -61,13 +28,52 @@
     "url": "http://gamedev.kdu.edu.my/bernama-biztalk-game-on/"
   },
   {
-    "title": "MyGameDev2020 set to help the Industry Grow",
-    "date": "2013-10-12",
-    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2013/12/mygamedev2020.png"
+    "title": "Gaming To A Degree",
+    "date": "2013-08-24",
+    "url": "http://www.bfm.my/gaming-to-a-degree.html"
   },
   {
-    "title": "EduNews – Familiarizing with the Game Development Industry",
-    "date": "2014-08-19",
-    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2014/08/EduNews-19-8-2014.png"
+    "title": "Boosting the Creative Content Industry",
+    "date": "2013-01-15",
+    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2013/01/20130122-thesun.png"
+  },
+
+
+  {
+    "title": "Electronic games development industry to grow under GTP",
+    "date": "2012-11-20",
+    "url": "http://themalaysianreserve.com/main/news/corporate-malaysia/2573-electronic-games-development-industry-to-grow-under-gtp"
+  },
+  {
+    "title": "Game Development Industry Set to Grow",
+    "date": "2012-09-24",
+    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/2012-09-24-TheSun.jpg"
+  },
+  {
+    "title": "KDU revs video game dev for MYGAMEDEV",
+    "date": "2012-09-21",
+    "url": "http://www.scmp.com/article/1046145/kdu-revs-video-game-development-mygamedev"
+  },
+
+  {
+    "title": "KDU Launches ETP Project",
+    "date": "2012-05-29",
+    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/ETP.jpg"
+  },
+  {
+    "title": "Game Development Cluster",
+    "date": "2012-05-28",
+    "url": "http://etp.pemandu.gov.my/28_May_2012-@-Game_Development_Cluster.aspx"
+  },
+  {
+    "title": "Game On For Digital Literacy",
+    "date": "2012-05-28",
+    "url": "http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/28_May_TheSUN_GAMEONFORDIGITALLITERACY.jpg"
+  },
+  {
+    "title": "MYGAMEDEV Kicks Off",
+    "date": "2012-04-24",
+    "url": "http://www.liveatpc.com/kdu-university-college-kicks-off-mygamedev2020/"
   }
+
 ]

@@ -79,27 +79,229 @@
           .row
             .spacer-20
           .row
-            .toggle_arrow.earlier EARLIER
+            .toggle_arrow.earlier#book-earlier-button EARLIER
             .spacer-10
           .row
-            .toggle_arrow 2013
+            .toggle_arrow#book-2013-button 2013
             .spacer-10
           .row
-            .toggle_arrow 2014
+            .toggle_arrow#book-2014-button 2014
             .spacer-10
           .row
             .spacer-20
-        .col-sm-8.col-sm-offset-1
+
+        // The Book
+        .col-sm-8.col-sm-offset-1#book-2014
           div(style="width:100%; height: 300;background-image: url(\"/img/news/newsarchivebook.svg\");background-repeat:no-repeat; background-position: center center;")
+            .row.hidden-sm
+              .spacer-40
+              .spacer-10
+            .row.visible-sm
+              .spacer-40
+              .spacer-20
+            .row
+              // left page
+              .col-sm-6
+                .row(style='padding-left: 15px;')
+                  a(style='text-decoration:none;', href="http://www.edgy.my/game-malaysia")
+                    p(style='font-family: \'Avenir\', sans-serif; font-size: 14px; font-weight: 600; color: #724F3D; cursor: pointer;') Game On Malaysia
+                      span(style='padding-left: 5px; color: #F1826B;') >>
+                .row(style='padding-left: 15px;')
+                  div(style='font-family: \'Avenir\', sans-serif; font-size: 12px; font-weight: 400; color: #724F3D; margin-top: -8px;') 08 SEPT 2014
 
-      .row.carousel-pager.hidden-xs
-        ul
-          li#news-prev-button.arrow-left
-          li#news-one-button.number 1
-          li#news-two-button.number 2
-          li#news-three-button.number 3
-          li#news-next-button.arrow-right
+                .row
+                  .spacer-20
+                  .spacer-10
 
+                .row(style='padding-left: 15px;')
+                  a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2014/08/EduNews-19-8-2014.png")
+                    p(style='font-family: \'Avenir\', sans-serif; font-size: 14px; font-weight: 600; color: #724F3D; cursor: pointer;') Familiarizing with the Game Development Industry
+                      span(style='padding-left: 5px; color: #F1826B;') >>
+                .row(style='padding-left: 15px;')
+                  div(style='font-family: \'Avenir\', sans-serif; font-size: 12px; font-weight: 400; color: #724F3D;margin-top: -8px;') 19 AUG 2014
+
+              // right page
+              .col-sm-6
+                .row
+                  a(style='text-decoration:none;' href="http://www.thestar.com.my/News/Education/2014/06/08/Game-on-for-gamers/")
+                    p(style='font-family: \'Avenir\', sans-serif; font-size: 14px; font-weight: 600; color: #724F3D; cursor: pointer;') Game On For Gamers
+                      span(style='padding-left: 5px; color: #F1826B;') >>
+                .row
+                  div(style='font-family: \'Avenir\', sans-serif; font-size: 12px; font-weight: 400; color: #724F3D; margin-top: -8px;') 08 JUNE 2014
+
+          // TODO: Pager for when theres more item
+          //.row.carousel-pager
+          //  ul
+          //    li#news-prev-button.arrow-left
+          //    li#news-one-button.number 1
+          //    li#news-two-button.number 2
+          //    li#news-three-button.number 3
+          //    li#news-next-button.arrow-right
+
+        .col-sm-8.col-sm-offset-1#book-2013
+          div(style="width:100%; height: 300;background-image: url(\"/img/news/newsarchivebook.svg\");background-repeat:no-repeat; background-position: center center;")
+            .row.hidden-sm
+              .spacer-40
+              .spacer-10
+            .row.visible-sm
+              .spacer-40
+              .spacer-20
+            .row
+              // left page
+              .col-sm-6
+                .row.news-left-page
+                  a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2013/12/mygamedev2020.png")
+                    p.news-title MyGameDev set to help the Industry Grow
+                      span.news-arrow >>
+                .row.news-left-page
+                  div.news-date 12 OCT 2013
+
+                .row
+                  .spacer-20
+                  .spacer-10
+
+                .row.news-left-page
+                  a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/bernama-biztalk-game-on/")
+                    p.news-title Bernama Biztalk’s Game On Segment
+                      span.news-arrow >>
+                .row.news-left-page
+                  div.news-date 02 SEPT 2013
+
+              // right page
+              .col-sm-6
+                .row
+                  a(style='text-decoration:none;', href="http://www.bfm.my/gaming-to-a-degree.html")
+                    p.news-title Gaming To A Degree
+                      span.news-arrow >>
+                .row
+                  div.news-date 24 AUG 2013
+
+                .row
+                  .spacer-20
+                  .spacer-20
+                  .spacer-10
+
+                .row
+                  a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2013/01/20130122-thesun.png")
+                    p.news-title Boosting Creative Content Industry
+                      span.news-arrow >>
+                .row
+                  div.news-date 15 JAN 2013
+
+
+          // TODO: Pager for when theres more item
+          //.row.carousel-pager
+          //  ul
+          //    li#news-prev-button.arrow-left
+          //    li#news-one-button.number 1
+          //    li#news-two-button.number 2
+          //    li#news-three-button.number 3
+          //    li#news-next-button.arrow-right
+
+        .col-sm-8.col-sm-offset-1#book-earlier
+          div(style="width:100%; height: 300;background-image: url(\"/img/news/newsarchivebook.svg\");background-repeat:no-repeat; background-position: center center;")
+            .row.hidden-sm
+              .spacer-40
+              .spacer-10
+            .row.visible-sm
+              .spacer-40
+              .spacer-20
+            .row
+              .carousel.slide(data-ride="carousel")
+                .carousel-inner#earlier-carousel(role="listbox")
+
+                  /// Page 1 & 2
+                  .item.active
+                    // left page
+                    .col-sm-6
+                      .row.news-left-page
+                        a(style='text-decoration:none;', href="http://themalaysianreserve.com/main/news/corporate-malaysia/2573-electronic-games-development-industry-to-grow-under-gtp")
+                          p.news-title Electronic games development industry to grow under GTP
+                            span.news-arrow >>
+                      .row.news-left-page
+                        div.news-date 20 NOV 2012
+
+                      .row
+                        .spacer-20
+                        .spacer-10
+
+                      .row.news-left-page
+                        a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/2012-09-24-TheSun.jpg")
+                          p.news-title Game Development Industry Set to Grow
+                            span.news-arrow >>
+                      .row.news-left-page
+                        div.news-date 24 SEPT 2012
+
+                    // right page
+                    .col-sm-6
+                      .row
+                        a(style='text-decoration:none;', href="http://www.scmp.com/article/1046145/kdu-revs-video-game-development-mygamedev")
+                          p.news-title KDU revs video game dev for MYGAMEDEV
+                            span.news-arrow >>
+                      .row
+                        div.news-date 21 SEPT 2012
+
+                      .row
+                        .spacer-20
+                        .spacer-20
+                        .spacer-10
+
+                      .row
+                        a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/ETP.jpg")
+                          p.news-title KDU Launches ETP Project
+                            span.news-arrow >>
+                      .row
+                        div.news-date 29 JUN 2012
+
+                  /// Page 3 & 4
+                  .item
+                    // left page
+                    .col-sm-6
+                      .row.news-left-page
+                        a(style='text-decoration:none;', href="http://etp.pemandu.gov.my/28_May_2012-@-Game_Development_Cluster.aspx")
+                          p.news-title Game Development Cluster
+                            span.news-arrow >>
+                      .row.news-left-page
+                        div.news-date 28 JUN 2012
+
+                      .row
+                        .spacer-20
+                        .spacer-10
+
+                      .row.news-left-page
+                        a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2012/01/28_May_TheSUN_GAMEONFORDIGITALLITERACY.jpg")
+                          p.news-title Game On For Digital Literacy
+                            span.news-arrow >>
+                      .row.news-left-page
+                        div.news-date 28 JUN 2012
+
+                    // right page
+                    .col-sm-6
+                      .row
+                        a(style='text-decoration:none;', href="http://www.liveatpc.com/kdu-university-college-kicks-off-mygamedev2020/")
+                          p.news-title MYGAMEDEV Kicks Off
+                            span.news-arrow >>
+                      .row
+                        div.news-date 24 APR 2012
+
+                      .row
+                        .spacer-20
+                        .spacer-20
+                        .spacer-10
+
+                      //.row
+                      //  a(style='text-decoration:none;', href="http://gamedev.kdu.edu.my/wp-content/uploads/2013/01/20130122-thesun.png")
+                      //    p.news-title Boosting Creative Content Industry
+                      //      span.news-arrow >>
+                      //.row
+                      //  div.news-date 15 JAN 2013
+
+          .row.carousel-pager
+            ul
+              li#book-earlier-prev-button.arrow-left
+              li#book-earlier-one-button.number 1
+              li#book-earlier-two-button.number 2
+              li#book-earlier-next-button.arrow-right
 
       .row
         .spacer-20

@@ -3,6 +3,14 @@
   $(document)
     .ready(function () {
 
+      var $book2014    = $('#book-2014');
+      var $book2013    = $('#book-2013');
+      var $bookearlier = $('#book-earlier');
+
+      $book2014.hide();
+      $book2013.hide();
+      $bookearlier.hide();
+
       /**
        * News
        */
@@ -31,21 +39,21 @@
 
           news = lodash
                    .sortBy(news, function (e) {
-                     return moment(e.date).valueOf();
+                     return -moment(e.date).valueOf();
                    });
 
           /**
            * Main Item
            */
-          var mainItem = news.pop();
+          news.shift();
 
           /**
            * Board Items
            */
           var board = [];
-              board.push(news.pop());
-              board.push(news.pop());
-              board.push(news.pop());
+              board.push(news.shift());
+              board.push(news.shift());
+              board.push(news.shift());
 
           var $boardItems = $('#boarditems');
           board
@@ -61,13 +69,39 @@
                 .append(createBoardItem(e, ((index % 2) ? '#E7D6B6' : '#F0E2C9')));
             });
 
-          news.forEach(function (e){
-            console.log(e.date);
-          });
-
           /**
            * Archive Section
            */
+          $bookearlier.show();
+
+          var $earlier_carousel = $('#earlier-carousel');
+              $earlier_carousel.carousel({interval: 10000});
+
+          $('#book-earlier-prev-button') .on('click', function () { $earlier_carousel.carousel('prev'); });
+          $('#book-earlier-next-button') .on('click', function () { $earlier_carousel.carousel('next'); });
+          $('#book-earlier-one-button')  .on('click', function () { $earlier_carousel.carousel(0);      });
+          $('#book-earlier-two-button')  .on('click', function () { $earlier_carousel.carousel(1);      });
+
+          $('#book-earlier-button')
+            .on('click', function () {
+              $book2014.hide();
+              $book2013.hide();
+              $bookearlier.show();
+            });
+
+          $('#book-2013-button')
+            .on('click', function () {
+              $book2014.hide();
+              $book2013.show();
+              $bookearlier.hide();
+            });
+
+          $('#book-2014-button')
+            .on('click', function () {
+              $book2014.show();
+              $book2013.hide();
+              $bookearlier.hide();
+            });
 
         });
 
