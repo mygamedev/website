@@ -70,11 +70,27 @@
           .row(style='max-width: 346px;')
             img.img-responsive(src='/img/news/canvas_frame_bottom.svg')
 
-      // Archive Section
       .row
         .spacer-40
 
-      .row.hidden-xs(style='margin-left: 28px; margin-right: 28px;')
+      // Archive Section
+      .row#archive.hidden-xs
+        #archivebutton(role="tab", style='background-color: #123B67; margin-left: 28px; margin-right: 28px;')
+          a(data-toggle="collapse", data-parent="#archive", href="#archiveitems" aria-expanded="false" aria-controls="collapseTwo" style="text-decoration: none;")
+            .row
+              .spacer-10
+            .row
+              .col-sm-5.hidden-xs.text-right
+                img(style='height:7px; margin-top: 5px;', src='/img/news/arrow_down.svg')
+              .col-sm-2.text-center
+                h3(style='color: #FDFAE4; margin-top: 0px; font-family: "Oswald Bold"; font-size: 17;') ARCHIVE
+              .col-sm-5.hidden-xs.text-left
+                img(style='height:7px; margin-top: 5px;', src='/img/news/arrow_down.svg')
+
+      .row
+        .spacer-40
+
+      .row.hidden-xs#archiveitems.collapse(role="tabpanel", aria-labelledby="archivebutton", style='margin-left: 28px; margin-right: 28px;')
         .col-sm-3
           .row
             .spacer-20
