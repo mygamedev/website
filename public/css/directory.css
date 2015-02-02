@@ -131,9 +131,12 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
 }
 
 .listing .desc .telephone .col-xs-1,
-.listing .desc .telephone .col-xs-8,
+.listing .desc .telephone .col-xs-10,
 .listing .desc .email     .col-xs-1,
-.listing .desc .email     .col-xs-8 {  padding-left: 0px; }
+.listing .desc .email     .col-xs-10 {
+    padding-left: 0px;
+    word-wrap: break-word;
+}
 
 .listing .desc .telephone .icon,
 .listing .desc .email .icon         {

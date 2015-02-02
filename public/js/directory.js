@@ -121,7 +121,7 @@
 
       return '<div class="row telephone text-left">' +
                '<div class="col-xs-1"><span class="icon">T</span></div>' +
-               '<div class="col-xs-8">' + content + '</div>' +
+               '<div class="col-xs-10">' + content + '</div>' +
              '</div>';
     }
 
@@ -137,7 +137,7 @@
 
       return '<div class="row email">' +
                '<div class="col-xs-1"><span class="icon">E</span></div>' +
-               '<div class="col-xs-8">' + content +  '</div>' +
+               '<div class="col-xs-10">' + content +  '</div>' +
              '</div>'
     }
 
