@@ -106,6 +106,22 @@
       return '<div class="row address">' + content + '</div>';
     }
 
+    function contacts(contacts) {
+
+      if (!contacts || contacts.length < 1) { return ''; }
+
+      var content = "";
+      contacts
+        .forEach(function (contact) {
+          content += '<div class="row emailentry"><span>' + contact + '</span></div>'
+        });
+
+      return '<div class="row email">' +
+        '<div class="col-xs-1"><span class="icon">C</span></div>' +
+        '<div class="col-xs-10">' + content +  '</div>' +
+        '</div>'
+    }
+
     function telephones(telephones) {
 
       if (!telephones || telephones.length < 1) { return '<div class="row telephone text-left"></div>'; }
@@ -154,6 +170,7 @@
                  spacing() +
                  address(datum.address) +
                  spacing() +
+                 contacts(datum.contacts)    +
                  telephones(datum.telephone) +
                  emails(datum.email) +
                '</div>' +
