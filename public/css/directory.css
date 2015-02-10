@@ -147,20 +147,22 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
 .listing .desc .telephone .icon,
 .listing .desc .email .icon         {
     font-family: 'Avenir', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: #005E61;
 }
 
 .listing .desc .telephoneentry > span {
     font-family: 'Avenir', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
+    letter-spacing: 0;
     color: #005E61;
 }
 
 .listing .desc .emailentry > span {
     font-family: 'Avenir', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
+    letter-spacing: 0;
     color: #005E61;
 }
 
