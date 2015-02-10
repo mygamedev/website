@@ -133,7 +133,8 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
 .listing .desc .telephone .col-xs-1,
 .listing .desc .telephone .col-xs-10,
 .listing .desc .email     .col-xs-1,
-.listing .desc .email     .col-xs-10 {
+.listing .desc .email     .col-xs-10,
+.listing .desc .email     .col-xs-11 {
     padding-left: 0px;
     word-wrap: break-word;
 }

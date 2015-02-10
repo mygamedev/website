@@ -118,7 +118,7 @@
 
       return '<div class="row email">' +
         '<div class="col-xs-1"><span class="icon">C</span></div>' +
-        '<div class="col-xs-10">' + content +  '</div>' +
+        '<div class="col-xs-11">' + content +  '</div>' +
         '</div>'
     }
 
@@ -153,7 +153,7 @@
 
       return '<div class="row email">' +
                '<div class="col-xs-1"><span class="icon">E</span></div>' +
-               '<div class="col-xs-10">' + content +  '</div>' +
+               '<div class="col-xs-11">' + content +  '</div>' +
              '</div>'
     }
 
