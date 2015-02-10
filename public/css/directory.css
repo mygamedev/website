@@ -139,6 +139,10 @@ input[type=text]::-webkit-input-placeholder { color: #C74C59; }
     word-wrap: break-word;
 }
 
+.listing .desc .email .col-xs-11 {
+    padding-right: 0px;
+}
+
 .listing .desc .telephone .icon,
 .listing .desc .email .icon         {
     font-family: 'Avenir', sans-serif;
