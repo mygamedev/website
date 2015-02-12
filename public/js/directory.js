@@ -121,7 +121,7 @@
         });
 
       return '<div class="row email">' +
-        '<div class="col-xs-1"><span class="icon">C</span></div>' +
+        '<div class="col-xs-1"><span class="icon">P</span></div>' +
         '<div class="col-xs-11">' + content +  '</div>' +
         '</div>'
     }
@@ -174,7 +174,7 @@
                  spacing() +
                  address(datum.address) +
                  spacing() +
-                 contacts(datum.contacts)    +
+                 contacts(datum.contact_person)    +
                  telephones(datum.telephone) +
                  emails(datum.email) +
                '</div>' +
