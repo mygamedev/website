@@ -68,6 +68,10 @@
           });
         })
 
+    })
+    .fail(function (e){
+      alert('loading error');
+      console.log(e);
     });
 
 
