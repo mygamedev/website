@@ -100,7 +100,7 @@
       var content = "";
       addressLines
         .forEach(function (addressLine) {
-          content += '<div class="row addressentry"><span>' + addressLine + '</span></div>'
+          content += '<div class="row addressentry"><span>' + addressLine + ',' + '</span></div>'
         });
 
       return '<div class="row address">' + content + '</div>';
