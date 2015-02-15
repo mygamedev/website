@@ -176,7 +176,7 @@
             }
           }
 
-          $videocarousel.carousel({ interval: 3000 });
+          $videocarousel.carousel({ interval: 10000 });
 
           $('#video-prev-button') .on('click', function () { $videocarousel.carousel('prev'); });
           $('#video-next-button') .on('click', function () { $videocarousel.carousel('next'); });
