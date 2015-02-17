@@ -77,10 +77,10 @@
           var $earlier_carousel = $('#earlier-carousel');
               $earlier_carousel.carousel({interval: 10000});
 
-          $('#book-earlier-prev-button') .on('click', function () { $earlier_carousel.carousel('prev'); });
-          $('#book-earlier-next-button') .on('click', function () { $earlier_carousel.carousel('next'); });
-          $('#book-earlier-one-button')  .on('click', function () { $earlier_carousel.carousel(0);      });
-          $('#book-earlier-two-button')  .on('click', function () { $earlier_carousel.carousel(1);      });
+          $('#book-earlier-prev-button').on('click', function () { $earlier_carousel.carousel('prev'); });
+          $('#book-earlier-next-button').on('click', function () { $earlier_carousel.carousel('next'); });
+          $('#book-earlier-one-button').on( 'click', function () { $earlier_carousel.carousel(0);      });
+          $('#book-earlier-two-button').on( 'click', function () { $earlier_carousel.carousel(1);      });
 
           $('#book-earlier-button')
             .on('click', function () {
@@ -104,6 +104,124 @@
             });
 
         });
+
+
+      /**
+       * Events
+       */
+
+      $.getJSON('/data/events.json')
+        .done(function (events) {
+
+          function createItem(e) {
+
+            var range    = e.range    || '1-2';
+            var location = e.location ||    '';
+            var title    = e.title    ||    '';
+            var url      = e.url      ||   '#';
+
+            //if (title.length > 12 ){
+            //  title = title.substr(0,12) + '...';
+            //}
+
+            return '<div class="row calendar-item">' +
+                     '<div class="col-sm-2 col-xs-3">' +
+                       '<p class="calendar-range">'+ range +'</p>' +
+                     '</div>' +
+                     '<div class="col-sm-9 col-xs-7">' +
+                       '<div class="row"><p class="calendar-location">' + location + '</p></div>' +
+                       '<div class="row"><p class="calendar-title">' + title + '</p></div>' +
+                     '</div>' +
+                     '<div class="col-xs-1">' +
+                       '<a href="' +  url +'"><img src="/img/news/calendar_arrow.svg" class="calendar-arrow"></a>' +
+                     '</div>' +
+                   '</div>';
+          }
+
+          function createPage(group) {
+            var classes = 'item';
+            if (group.month === moment().format('MMMM').toUpperCase()) {
+              classes += ' active';
+              $('.calendar-month').text(group.month);
+            }
+            var items   = '';
+            group
+              .items
+              .forEach(function (item) {
+                items += createItem(item);
+              });
+
+            return '<div class="' + classes + '">' +
+                     '<div class="hidden month">' + group.month + '</div>' +
+                     '<div class="hidden year">' + group.year + '</div>' +
+                     items +
+                   '</div>';
+          }
+
+
+          events = lodash
+                     .chain(events)
+                     .map(function (event) {
+
+                       var start = moment(event.startdate);
+                       var end   = moment(event.enddate);
+
+                       event.group      = start.year() + (start.month() < 9 ? "0" : "") + (start.month() + 1);
+                       event.startdate  = start.toDate();
+                       event.startday   = start.day();
+                       event.startmonth = start.format('MMM');
+                       event.startyear  = start.year();
+                       event.enddate    = end.toDate();
+                       event.endday     = end.day();
+                       event.endmonth   = start.format('MMM');
+                       event.range      = event.startday + '-' + event.endday;
+
+                       return event;
+                     })
+                     .sortBy('startdate')
+                     .value();
+
+          var groups = {};
+          lodash
+            .each(events, function (event) {
+              var group = event.group;
+              if (!groups[group]) { groups[group] = []; }
+              groups[group].push(event);
+            });
+
+
+          groups = lodash
+                     .map(groups, function (group, key) {
+                       var m = moment(key, 'YYYYMM');
+                       return {year: m.year(), month: m.format('MMMM').toUpperCase(), items: group};
+                     });
+
+          var $eventcarousel = $('#event-carousel');
+          lodash
+            .each(groups, function (group) {
+              $eventcarousel.append(createPage(group));
+            });
+
+
+          $('#event-carousel').carousel();
+
+          $eventcarousel
+            .on('slid.bs.carousel', function () {
+
+              var month = $eventcarousel.find('.item.active > .month').text();
+              var year  = $eventcarousel.find('.item.active > .year').text();
+
+               $('.calendar-year').text(year);
+              $('.calendar-month').text(month);
+
+              console.log(month, year);
+            });
+
+          $eventcarousel.carousel('pause');
+          $('.calendar-arrow-left') .on('click', function () { $eventcarousel.carousel('prev'); });
+          $('.calendar-arrow-right').on('click', function () { $eventcarousel.carousel('next'); });
+        });
+
 
       /**
        * Videos

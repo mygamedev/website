@@ -1,0 +1,83 @@
+.calendar {
+    background-color: white;
+    box-shadow: 8px 7px #D1BAAE;
+    min-height: 515px;
+    max-width: 600px;
+    margin-top: 80px;
+}
+
+
+.calendar-year {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-family: "Avenir", sans-serif;
+    font-size: 18px;
+}
+.calendar-month {
+    margin: 0 50px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+
+}
+
+.calendar-header {
+    background-color: #C95B66;
+    height: 85px;
+    border-bottom: 6px solid #94404D;
+    font-family: "Avenir", sans-serif;
+    color: white;
+}
+
+.calendar-arrow-right,
+.calendar-arrow-left {
+    height: 18px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.calendar-item {
+    padding-top: 15px;
+    font-family: "Myriad Pro", sans-serif;
+    border-bottom: 1px solid #CCCCCC;
+    min-height: 70px;
+}
+
+.calendar-location {
+    color: #9EBC3C;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Avenir", sans-serif;
+    padding-top: 4px;
+    margin-bottom: 0px;
+    margin-left: -10px;
+}
+
+.calendar-range {
+    max-width: 76px;
+    padding-bottom: 4px;
+    padding-top: 7px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #02ABB8;
+    color: white;
+    font-family: "Avenir", sans-serif;
+    font-size: 21px;
+}
+
+.calendar-title {
+    color: #6B739E;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-left: -10px;
+}
+
+.calendar-arrow {
+    margin-top: 13px;
+    height: 16px;
+}
+
+#event-carousel{
+    overflow: scroll;
+}

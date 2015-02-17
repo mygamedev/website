@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Mobile Games Asia",
+    "location": "Bangkok",
+    "startdate": "2015-01-23",
+    "enddate": "2015-01-23",
+    "url": "http://mobilegameasia.eventdove.com/"
+  },
+  {
+    "title": "PAX South",
+    "location": "San Antonio",
+    "startdate": "2015-01-23",
+    "enddate": "2015-01-25",
+    "url": "http://south.paxsite.com/"
+  },
+  {
+    "title": "Casual Connect Europe",
+    "location": "Amsterdam",
+    "startdate": "2015-02-04",
+    "enddate": "2015-02-06",
+    "url": "http://europe.casualconnect.org/"
+  },
+  {
+    "title": "Game Connection",
+    "location": "San Francisco",
+    "startdate": "2015-03-02",
+    "enddate": "2015-03-05",
+    "url": "http://www.game-connection.com/"
+  },
+  {
+    "title": "Game Developers Conference",
+    "location": "San Francisco",
+    "startdate": "2015-03-02",
+    "enddate": "2015-03-06",
+    "url": "http://www.gdconf.com/"
+  },
+  {
+    "title": "PAX East",
+    "location": "Boston",
+    "startdate": "2015-03-06",
+    "enddate": "2015-03-08",
+    "url": "http://east.paxsite.com/"
+  },
+  {
+    "title": "GAMEON'ASIA",
+    "location": "Incheon",
+    "startdate": "2015-03-25",
+    "enddate": "2015-03-27",
+    "url": "http://www.eurosis.org/cms/?q=node/2963"
+  },
+  {
+    "title": "Global Mobile Game Congress",
+    "location": "Beijing",
+    "startdate": "2015-04-24",
+    "enddate": "2015-04-25",
+    "url": "http://www.gmgcongress.com/"
+  },
+  {
+    "title": "FMX",
+    "location": "Stuttgart",
+    "startdate": "2015-05-05",
+    "enddate": "2015-05-08",
+    "url": "http://www.fmx.de/"
+  },
+  {
+    "title": "Casual Connect Asia",
+    "location": "Singapore",
+    "startdate": "2015-05-19",
+    "enddate": "2015-05-21",
+    "url": "http://asia.casualconnect.org/"
+  },
+  {
+    "title": "E3",
+    "location": "Los Angeles",
+    "startdate": "2015-06-16",
+    "enddate": "2015-06-18",
+    "url": "http://www.e3expo.com/"
+  },
+  {
+    "title": "ChinaJoy",
+    "location": "Shanghai",
+    "startdate": "2015-07-21",
+    "enddate": "2015-08-01",
+    "url": "http://en.chinajoy.net/"
+  },
+  {
+    "title": "Game Developers Conference Europe",
+    "location": "Cologne",
+    "startdate": "2015-08-03",
+    "enddate": "2015-08-04",
+    "url": "http://www.gdceurope.com/"
+  },
+  {
+    "title": "Gamescom",
+    "location": "Cologne",
+    "startdate": "2015-08-05",
+    "enddate": "2015-08-09",
+    "url": "http://www.gamescom-cologne.com/"
+  },
+  {
+    "title": "SIGGRAPH",
+    "location": "Los Angeles",
+    "startdate": "2015-08-09",
+    "enddate": "2015-08-13",
+    "url": "http://s2015.siggraph.org/"
+  },
+  {
+    "title": "Casual Connect USA",
+    "location": "San Francisco",
+    "startdate": "2015-08-11",
+    "enddate": "2015-08-13",
+    "url": "http://usa.casualconnect.org/"
+  },
+  {
+    "title": "Serious Games Conference",
+    "location": "Singapore",
+    "startdate": "2015-08-11",
+    "enddate": "2015-08-14",
+    "url": "http://2015conf.seriousgamesconference.org/"
+  },
+  {
+    "title": "PAX Dev",
+    "location": "Seattle",
+    "startdate": "2015-08-26",
+    "enddate": "2015-08-27",
+    "url": "http://dev.paxsite.com/"
+  },
+  {
+    "title": "Serious Games Conference",
+    "location": "Seattle",
+    "startdate": "2015-08-28",
+    "enddate": "2015-08-31",
+    "url": "http://prime.paxsite.com/"
+  },
+  {
+    "title": "Tokyo Game Show",
+    "location": "Tokyo",
+    "startdate": "2015-09-17",
+    "enddate": "2015-09-20",
+    "url": "http://expo.nikkeibp.co.jp/tgs/"
+  },
+  {
+    "title": "KL Converge! & Content Malaysia",
+    "location": "Kuala Lumpur",
+    "startdate": "2015-09-17",
+    "enddate": "2015-09-18",
+    "url": "http://www.contentmalaysia.com/"
+  },
+  {
+    "title": "EGX (Formerly known as Eurogamer Expo)",
+    "location": "London",
+    "startdate": "2015-09-24",
+    "enddate": "2015-09-27",
+    "url": "http://www.egxlondon.net/"
+  },
+  {
+    "title": "Game Developers Conference China",
+    "location": "Shanghai",
+    "startdate": "2015-10-19",
+    "enddate": "2015-10-21",
+    "url": "http://www.gdcchina.com/"
+  },
+  {
+    "title": "PAX Aus",
+    "location": "Melbourne",
+    "startdate": "2015-10-30",
+    "enddate": "2015-11-01",
+    "url": "http://aus.paxsite.com/"
+  },
+  {
+    "title": "SIGGRAPH Asia",
+    "location": "Kobe",
+    "startdate": "2015-11-02",
+    "enddate": "2015-09-05",
+    "url": "http://sa2015.siggraph.org/"
+  },
+  {
+    "title": "Casual Connect Eastern Europe",
+    "location": "Belgrade",
+    "startdate": "2015-11-10",
+    "enddate": "2015-09-12",
+    "url": "http://ee.casualconnect.org/"
+  },
+  {
+    "title": "G-Star",
+    "location": "Busan",
+    "startdate": "2015-11-19",
+    "enddate": "2015-11-22",
+    "url": "http://www.gstar.or.kr/eng/"
+  }
+]
