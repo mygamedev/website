@@ -12,3 +12,15 @@ TODO
 - Portal Static Pages
 - Profile showcases
 - Forum Linkages
+
+
+
+Compilation
+===========
+```
+npm install
+./node_modules/bower/bin/bower install
+./node_modules/gulp/bin/gulp
+```
+
+This will create all required files and transform them to static html files located at ./public/
