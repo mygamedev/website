@@ -1,19 +1,32 @@
 nav.navbar
-  .navbar-header
-    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
-      span.sr-only Toggle navigation
-      span.icon-bar
-      span.icon-bar
-      span.icon-bar
-  #navbar.collapse.navbar-collapse.text-center
-    ul.nav.navbar-nav.text-center.nav-center
-      li.active.text-center
-        a(href='/') HOME
-      li
-        a(href='/about') ABOUT US
-      li
-        a(href='/news') NEWS & ARTICLES
-      li
-        a(href='/directory') DIRECTORY
-      li
-        a(href='/faq') FAQ
+    .navbar-header
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+    #navbar.collapse.navbar-collapse.text-center
+        ul.nav.navbar-nav.text-center.nav-center
+            li.active.text-center
+                a(href='/') HOME
+            li
+                if mode === 'compilation'
+                    a(href='about.html') ABOUT US
+                else
+                    a(href='/about') ABOUT US
+            li
+                if mode === 'compilation'
+                    a(href='news.html') NEWS & ARTICLES
+                else
+                    a(href='/news') NEWS & ARTICLES
+            li
+                if mode === 'compilation'
+                    a(href='directory.html') DIRECTORY
+                else
+                    a(href='/directory') DIRECTORY
+
+            li
+                if mode === 'compilation'
+                    a(href='faq.html') FAQ
+                else
+                    a(href='/faq') FAQ
