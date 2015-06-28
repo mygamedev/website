@@ -1,9 +1,11 @@
 extends layout_page
+block vars
+    - var page='news'
 block content
 
-  include news/mast
-  include news/articles
-  include news/calendar
-  include news/videos
+    include news/mast
+    include news/articles
+    include news/calendar
+    include news/videos
 
-  include common/contact
+    include common/contact
