@@ -2,8 +2,7 @@
   'use strict';
 
   if (console) {
-    var doge = location.origin + '/img/doge.png';
-    console.meme("wow", "much curiosity", doge, 200, 150);
+    console.meme("wow", "much curiosity", 'http://i.imgur.com/eCKTdR1.png', 200, 150);
     setTimeout(function () {
       console.log('\n' +
                   '\n*******************************' +
@@ -11,7 +10,6 @@
                   '\n*******************************' +
                   '\n');
     }, 1500);
-
   }
 
 }());
