@@ -14,13 +14,24 @@ TODO
 - Forum Linkages
 
 
+Required
+========
+- iojs
+- bower
+- gulp
+
 
 Compilation
 ===========
 ```
 npm install
-./node_modules/bower/bin/bower install
-./node_modules/gulp/bin/gulp
+bower install
+gulp
 ```
 
 This will create all required files and transform them to static html files located at ./public/
+
+
+Domain setup
+============
+setup a new CNAME record in DNS manager to point to github pages
