@@ -1,28 +1,23 @@
 head(lang='en')
 
-  meta(charset='UTF-8')
-  meta(name='viewport',         content='width=device-width, initial-scale=1.0')
-  meta(name='author',           content='http://tca.my')
-  meta(name='title',            content='mygamedev')
-  meta(name='description',      content='mygamedev')
-  meta(property='og:locale',    content='en_US')
-  meta(property='og:url',       content='http://mygamedev.asia/')
-  meta(property='og:title',     content='mygamedev')
-  meta(property='og:site_name', content='mygamedev.asia')
+    meta(charset='UTF-8')
+    meta(name='viewport',         content='width=device-width, initial-scale=1.0')
+    meta(name='author',           content='http://tca.my')
+    meta(name='title',            content='mygamedev')
+    meta(name='description',      content='mygamedev')
+    meta(property='og:locale',    content='en_US')
+    meta(property='og:url',       content='http://mygamedev.asia/')
+    meta(property='og:title',     content='mygamedev')
+    meta(property='og:site_name', content='mygamedev.asia')
 
-  title MYGAMEDEV
+    title MYGAMEDEV
 
-  //link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Nunito:400,700,300')
-  link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap.min.css')
-  link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap-theme.min.css')
-  link(rel='stylesheet', href='/css/mgd.css')
-  if page == 'directory'
-    link(rel='stylesheet', href='/css/directory.css')
+    link(rel='stylesheet', href='components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='components/bootstrap/dist/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='css/mgd.css')
+    if page == 'directory'
+        link(rel='stylesheet', href='css/directory.css')
 
-  if page == 'news'
-    link(rel='stylesheet', href='/css/news.css')
-    link(rel='stylesheet', href='/css/calendar.css')
-
-  if locals.NODE_ENV === 'development'
-    block js
-      script(src='http://localhost:35729/livereload.js')
+    if page == 'news'
+        link(rel='stylesheet', href='css/news.css')
+        link(rel='stylesheet', href='css/calendar.css')
