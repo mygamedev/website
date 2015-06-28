@@ -14,7 +14,7 @@
       /**
        * News
        */
-      $.getJSON('/data/news.json')
+      $.getJSON('data/news.json')
         .done(function (news) {
 
           function createBoardItem(newsItem, color) {
@@ -110,7 +110,7 @@
        * Events
        */
 
-      $.getJSON('/data/events.json')
+      $.getJSON('data/events.json')
         .done(function (events) {
 
           function createItem(e) {
@@ -227,7 +227,7 @@
        * Videos
        */
       setTimeout(function () {
-          $.getJSON('/data/videos.json')
+          $.getJSON('data/videos.json')
             .done(function (videos) {
 
               function createMain(options) {

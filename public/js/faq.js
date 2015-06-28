@@ -37,7 +37,7 @@
     function getRandomAvatarIMG() {
       return '<img ' +
              'style="width: 220px;" ' +
-             'src="/img/faq/faq_avatar_' + getRandomInt(1,5) + '.svg" ' +
+             'src="img/faq/faq_avatar_' + getRandomInt(1,5) + '.svg" ' +
              '/>';
     }
 
@@ -54,7 +54,7 @@
                  + '<h4 class="text-center" style="margin-top:0px; margin-bottom:0px; padding-bottom: 15px; padding-top: 40px;" data-toggle="collapse" data-parent="#accordion" href="#' + bodyId + '" aria-expanded="false" aria-controls="collapseTwo">'
                    + '<a style="color: white; font-size: 18px; font-family: \'Avenir\', sans-serif; text-decoration: none;">' + faqTitle + '</a>'
                    + '<br/>'
-                   + '<img style="height: 10px; margin-top: 16px;" src="/img/faq/faq_down_arrow.svg" />'
+                   + '<img style="height: 10px; margin-top: 16px;" src="img/faq/faq_down_arrow.svg" />'
                  + '</h4>'
                + '</div>'
 

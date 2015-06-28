@@ -1,7 +1,7 @@
 (function ($, lodash) {
   'use strict';
 
-  $.getJSON('/data/directory.json')
+  $.getJSON('data/directory.json')
     .done(function (list) {
 
       var $list = $('#list');
